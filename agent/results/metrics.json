@@ -1,0 +1,46 @@
+{
+  "reclaimai_agent": {
+    "transactions": 600,
+    "recovery_rate": 0.555,
+    "revenue_recovered_inr": 4045674.98,
+    "operating_cost_inr": 29012.2,
+    "net_revenue_recovered_inr": 4016662.78,
+    "escalations": 78,
+    "false_escalation_rate": 0.1923,
+    "guardrail_violations": 0,
+    "avg_attempts_per_transaction": 2.21
+  },
+  "always_retry_now": {
+    "transactions": 600,
+    "recovery_rate": 0.4767,
+    "revenue_recovered_inr": 3042280.53,
+    "operating_cost_inr": 1789.0,
+    "net_revenue_recovered_inr": 3040491.53,
+    "escalations": 0,
+    "false_escalation_rate": 0.0,
+    "guardrail_violations": 0,
+    "avg_attempts_per_transaction": 2.98
+  },
+  "retry_then_stop": {
+    "transactions": 600,
+    "recovery_rate": 0.2467,
+    "revenue_recovered_inr": 1451888.18,
+    "operating_cost_inr": 600.0,
+    "net_revenue_recovered_inr": 1451288.18,
+    "escalations": 0,
+    "false_escalation_rate": 0.0,
+    "guardrail_violations": 0,
+    "avg_attempts_per_transaction": 1.75
+  },
+  "random_valid": {
+    "transactions": 600,
+    "recovery_rate": 0.32,
+    "revenue_recovered_inr": 1889526.97,
+    "operating_cost_inr": 20864.18,
+    "net_revenue_recovered_inr": 1868662.79,
+    "escalations": 52,
+    "false_escalation_rate": 0.3846,
+    "guardrail_violations": 0,
+    "avg_attempts_per_transaction": 1.82
+  }
+}
