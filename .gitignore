@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+backend/audit_trail.db
+.DS_Store
