@@ -1,0 +1,5402 @@
+[
+  {
+    "transaction_id": "txn_00000",
+    "amount_inr": 38141.2,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T20:30:00",
+    "customer_id": "cust_0280"
+  },
+  {
+    "transaction_id": "txn_00001",
+    "amount_inr": 63.41,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T18:30:00",
+    "customer_id": "cust_0102"
+  },
+  {
+    "transaction_id": "txn_00002",
+    "amount_inr": 238.78,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-18T06:24:00",
+    "customer_id": "cust_0082"
+  },
+  {
+    "transaction_id": "txn_00003",
+    "amount_inr": 119.97,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T15:29:00",
+    "customer_id": "cust_0050"
+  },
+  {
+    "transaction_id": "txn_00004",
+    "amount_inr": 169.03,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-21T23:41:00",
+    "customer_id": "cust_0194"
+  },
+  {
+    "transaction_id": "txn_00005",
+    "amount_inr": 332.89,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T00:47:00",
+    "customer_id": "cust_0036"
+  },
+  {
+    "transaction_id": "txn_00006",
+    "amount_inr": 180.22,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T15:35:00",
+    "customer_id": "cust_0143"
+  },
+  {
+    "transaction_id": "txn_00007",
+    "amount_inr": 35157.88,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-16T13:18:00",
+    "customer_id": "cust_0332"
+  },
+  {
+    "transaction_id": "txn_00008",
+    "amount_inr": 1601.65,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T13:31:00",
+    "customer_id": "cust_0353"
+  },
+  {
+    "transaction_id": "txn_00009",
+    "amount_inr": 429.28,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T07:39:00",
+    "customer_id": "cust_0162"
+  },
+  {
+    "transaction_id": "txn_00010",
+    "amount_inr": 460.91,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T21:57:00",
+    "customer_id": "cust_0256"
+  },
+  {
+    "transaction_id": "txn_00011",
+    "amount_inr": 16098.24,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-13T06:21:00",
+    "customer_id": "cust_0135"
+  },
+  {
+    "transaction_id": "txn_00012",
+    "amount_inr": 312.59,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T14:16:00",
+    "customer_id": "cust_0253"
+  },
+  {
+    "transaction_id": "txn_00013",
+    "amount_inr": 3323.51,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T13:43:00",
+    "customer_id": "cust_0033"
+  },
+  {
+    "transaction_id": "txn_00014",
+    "amount_inr": 260.62,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T11:31:00",
+    "customer_id": "cust_0370"
+  },
+  {
+    "transaction_id": "txn_00015",
+    "amount_inr": 3958.69,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-10T21:26:00",
+    "customer_id": "cust_0081"
+  },
+  {
+    "transaction_id": "txn_00016",
+    "amount_inr": 444.13,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "high",
+    "failed_at": "2026-08-12T13:15:00",
+    "customer_id": "cust_0055"
+  },
+  {
+    "transaction_id": "txn_00017",
+    "amount_inr": 337.53,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T06:34:00",
+    "customer_id": "cust_0399"
+  },
+  {
+    "transaction_id": "txn_00018",
+    "amount_inr": 2698.73,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-20T23:53:00",
+    "customer_id": "cust_0158"
+  },
+  {
+    "transaction_id": "txn_00019",
+    "amount_inr": 305.31,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-18T07:23:00",
+    "customer_id": "cust_0273"
+  },
+  {
+    "transaction_id": "txn_00020",
+    "amount_inr": 16927.55,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T15:05:00",
+    "customer_id": "cust_0109"
+  },
+  {
+    "transaction_id": "txn_00021",
+    "amount_inr": 22954.65,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-15T18:55:00",
+    "customer_id": "cust_0192"
+  },
+  {
+    "transaction_id": "txn_00022",
+    "amount_inr": 20213.85,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T14:30:00",
+    "customer_id": "cust_0118"
+  },
+  {
+    "transaction_id": "txn_00023",
+    "amount_inr": 368.53,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T13:28:00",
+    "customer_id": "cust_0170"
+  },
+  {
+    "transaction_id": "txn_00024",
+    "amount_inr": 10954.03,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T02:41:00",
+    "customer_id": "cust_0243"
+  },
+  {
+    "transaction_id": "txn_00025",
+    "amount_inr": 924.47,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T15:19:00",
+    "customer_id": "cust_0211"
+  },
+  {
+    "transaction_id": "txn_00026",
+    "amount_inr": 4928.74,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-17T13:42:00",
+    "customer_id": "cust_0174"
+  },
+  {
+    "transaction_id": "txn_00027",
+    "amount_inr": 136.22,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T08:07:00",
+    "customer_id": "cust_0237"
+  },
+  {
+    "transaction_id": "txn_00028",
+    "amount_inr": 249.41,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "high",
+    "failed_at": "2026-08-15T20:09:00",
+    "customer_id": "cust_0277"
+  },
+  {
+    "transaction_id": "txn_00029",
+    "amount_inr": 4319.13,
+    "amount_bucket": "mid",
+    "failure_reason": "card_expired",
+    "customer_risk": "high",
+    "failed_at": "2026-08-11T22:53:00",
+    "customer_id": "cust_0110"
+  },
+  {
+    "transaction_id": "txn_00030",
+    "amount_inr": 509.7,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-07T11:47:00",
+    "customer_id": "cust_0217"
+  },
+  {
+    "transaction_id": "txn_00031",
+    "amount_inr": 402.51,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-07T18:02:00",
+    "customer_id": "cust_0112"
+  },
+  {
+    "transaction_id": "txn_00032",
+    "amount_inr": 7572.44,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T20:23:00",
+    "customer_id": "cust_0258"
+  },
+  {
+    "transaction_id": "txn_00033",
+    "amount_inr": 75.6,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T12:58:00",
+    "customer_id": "cust_0035"
+  },
+  {
+    "transaction_id": "txn_00034",
+    "amount_inr": 16079.69,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T21:42:00",
+    "customer_id": "cust_0318"
+  },
+  {
+    "transaction_id": "txn_00035",
+    "amount_inr": 16734.46,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T07:08:00",
+    "customer_id": "cust_0161"
+  },
+  {
+    "transaction_id": "txn_00036",
+    "amount_inr": 352.26,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T05:05:00",
+    "customer_id": "cust_0235"
+  },
+  {
+    "transaction_id": "txn_00037",
+    "amount_inr": 94.99,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T22:36:00",
+    "customer_id": "cust_0036"
+  },
+  {
+    "transaction_id": "txn_00038",
+    "amount_inr": 36659.3,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T08:47:00",
+    "customer_id": "cust_0335"
+  },
+  {
+    "transaction_id": "txn_00039",
+    "amount_inr": 299.57,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T00:26:00",
+    "customer_id": "cust_0060"
+  },
+  {
+    "transaction_id": "txn_00040",
+    "amount_inr": 1767.9,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-05T15:11:00",
+    "customer_id": "cust_0352"
+  },
+  {
+    "transaction_id": "txn_00041",
+    "amount_inr": 269.84,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T10:24:00",
+    "customer_id": "cust_0217"
+  },
+  {
+    "transaction_id": "txn_00042",
+    "amount_inr": 200.1,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T20:48:00",
+    "customer_id": "cust_0227"
+  },
+  {
+    "transaction_id": "txn_00043",
+    "amount_inr": 54.35,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T09:57:00",
+    "customer_id": "cust_0019"
+  },
+  {
+    "transaction_id": "txn_00044",
+    "amount_inr": 116.64,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-21T10:55:00",
+    "customer_id": "cust_0184"
+  },
+  {
+    "transaction_id": "txn_00045",
+    "amount_inr": 4010.52,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T02:57:00",
+    "customer_id": "cust_0384"
+  },
+  {
+    "transaction_id": "txn_00046",
+    "amount_inr": 4892.93,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "high",
+    "failed_at": "2026-08-01T13:32:00",
+    "customer_id": "cust_0092"
+  },
+  {
+    "transaction_id": "txn_00047",
+    "amount_inr": 468.87,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T01:42:00",
+    "customer_id": "cust_0082"
+  },
+  {
+    "transaction_id": "txn_00048",
+    "amount_inr": 4363.67,
+    "amount_bucket": "mid",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T22:57:00",
+    "customer_id": "cust_0157"
+  },
+  {
+    "transaction_id": "txn_00049",
+    "amount_inr": 3470.15,
+    "amount_bucket": "mid",
+    "failure_reason": "card_expired",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-20T16:03:00",
+    "customer_id": "cust_0036"
+  },
+  {
+    "transaction_id": "txn_00050",
+    "amount_inr": 49151.74,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T12:51:00",
+    "customer_id": "cust_0015"
+  },
+  {
+    "transaction_id": "txn_00051",
+    "amount_inr": 130.36,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "high",
+    "failed_at": "2026-08-14T13:48:00",
+    "customer_id": "cust_0223"
+  },
+  {
+    "transaction_id": "txn_00052",
+    "amount_inr": 10204.06,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-05T07:48:00",
+    "customer_id": "cust_0131"
+  },
+  {
+    "transaction_id": "txn_00053",
+    "amount_inr": 35908.57,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T18:31:00",
+    "customer_id": "cust_0344"
+  },
+  {
+    "transaction_id": "txn_00054",
+    "amount_inr": 33041.99,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T07:07:00",
+    "customer_id": "cust_0064"
+  },
+  {
+    "transaction_id": "txn_00055",
+    "amount_inr": 2337.77,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T14:46:00",
+    "customer_id": "cust_0066"
+  },
+  {
+    "transaction_id": "txn_00056",
+    "amount_inr": 12831.23,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T20:21:00",
+    "customer_id": "cust_0208"
+  },
+  {
+    "transaction_id": "txn_00057",
+    "amount_inr": 31099.32,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T07:59:00",
+    "customer_id": "cust_0239"
+  },
+  {
+    "transaction_id": "txn_00058",
+    "amount_inr": 48192.44,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T20:40:00",
+    "customer_id": "cust_0338"
+  },
+  {
+    "transaction_id": "txn_00059",
+    "amount_inr": 334.82,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T07:26:00",
+    "customer_id": "cust_0159"
+  },
+  {
+    "transaction_id": "txn_00060",
+    "amount_inr": 60.99,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T08:43:00",
+    "customer_id": "cust_0213"
+  },
+  {
+    "transaction_id": "txn_00061",
+    "amount_inr": 373.26,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T22:17:00",
+    "customer_id": "cust_0353"
+  },
+  {
+    "transaction_id": "txn_00062",
+    "amount_inr": 396.52,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-19T07:09:00",
+    "customer_id": "cust_0357"
+  },
+  {
+    "transaction_id": "txn_00063",
+    "amount_inr": 4317.51,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T04:35:00",
+    "customer_id": "cust_0272"
+  },
+  {
+    "transaction_id": "txn_00064",
+    "amount_inr": 32569.35,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-21T07:09:00",
+    "customer_id": "cust_0259"
+  },
+  {
+    "transaction_id": "txn_00065",
+    "amount_inr": 1216.21,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-06T21:33:00",
+    "customer_id": "cust_0385"
+  },
+  {
+    "transaction_id": "txn_00066",
+    "amount_inr": 2845.85,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T00:13:00",
+    "customer_id": "cust_0040"
+  },
+  {
+    "transaction_id": "txn_00067",
+    "amount_inr": 201.13,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-06T06:17:00",
+    "customer_id": "cust_0197"
+  },
+  {
+    "transaction_id": "txn_00068",
+    "amount_inr": 2334.2,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-02T10:00:00",
+    "customer_id": "cust_0106"
+  },
+  {
+    "transaction_id": "txn_00069",
+    "amount_inr": 5878.94,
+    "amount_bucket": "high",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T15:44:00",
+    "customer_id": "cust_0245"
+  },
+  {
+    "transaction_id": "txn_00070",
+    "amount_inr": 4340.52,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T05:56:00",
+    "customer_id": "cust_0383"
+  },
+  {
+    "transaction_id": "txn_00071",
+    "amount_inr": 2697.03,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-01T15:51:00",
+    "customer_id": "cust_0200"
+  },
+  {
+    "transaction_id": "txn_00072",
+    "amount_inr": 231.94,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T03:50:00",
+    "customer_id": "cust_0274"
+  },
+  {
+    "transaction_id": "txn_00073",
+    "amount_inr": 303.98,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T17:24:00",
+    "customer_id": "cust_0237"
+  },
+  {
+    "transaction_id": "txn_00074",
+    "amount_inr": 2546.15,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T07:57:00",
+    "customer_id": "cust_0386"
+  },
+  {
+    "transaction_id": "txn_00075",
+    "amount_inr": 425.71,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T23:07:00",
+    "customer_id": "cust_0115"
+  },
+  {
+    "transaction_id": "txn_00076",
+    "amount_inr": 343.29,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-20T02:19:00",
+    "customer_id": "cust_0011"
+  },
+  {
+    "transaction_id": "txn_00077",
+    "amount_inr": 1014.75,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T22:00:00",
+    "customer_id": "cust_0132"
+  },
+  {
+    "transaction_id": "txn_00078",
+    "amount_inr": 323.26,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T01:52:00",
+    "customer_id": "cust_0056"
+  },
+  {
+    "transaction_id": "txn_00079",
+    "amount_inr": 21888.81,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "high",
+    "failed_at": "2026-08-05T12:18:00",
+    "customer_id": "cust_0039"
+  },
+  {
+    "transaction_id": "txn_00080",
+    "amount_inr": 18571.22,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-14T15:54:00",
+    "customer_id": "cust_0062"
+  },
+  {
+    "transaction_id": "txn_00081",
+    "amount_inr": 68.48,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T12:19:00",
+    "customer_id": "cust_0332"
+  },
+  {
+    "transaction_id": "txn_00082",
+    "amount_inr": 48235.44,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-21T06:55:00",
+    "customer_id": "cust_0236"
+  },
+  {
+    "transaction_id": "txn_00083",
+    "amount_inr": 17153.71,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-18T15:03:00",
+    "customer_id": "cust_0248"
+  },
+  {
+    "transaction_id": "txn_00084",
+    "amount_inr": 316.61,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-07T08:19:00",
+    "customer_id": "cust_0231"
+  },
+  {
+    "transaction_id": "txn_00085",
+    "amount_inr": 2205.45,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-05T03:18:00",
+    "customer_id": "cust_0250"
+  },
+  {
+    "transaction_id": "txn_00086",
+    "amount_inr": 4461.44,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-13T15:32:00",
+    "customer_id": "cust_0006"
+  },
+  {
+    "transaction_id": "txn_00087",
+    "amount_inr": 158.61,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T17:09:00",
+    "customer_id": "cust_0244"
+  },
+  {
+    "transaction_id": "txn_00088",
+    "amount_inr": 14971.84,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-06T12:52:00",
+    "customer_id": "cust_0157"
+  },
+  {
+    "transaction_id": "txn_00089",
+    "amount_inr": 49848.42,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T12:39:00",
+    "customer_id": "cust_0181"
+  },
+  {
+    "transaction_id": "txn_00090",
+    "amount_inr": 163.13,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T21:42:00",
+    "customer_id": "cust_0275"
+  },
+  {
+    "transaction_id": "txn_00091",
+    "amount_inr": 17442.48,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-18T07:10:00",
+    "customer_id": "cust_0269"
+  },
+  {
+    "transaction_id": "txn_00092",
+    "amount_inr": 1833.11,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "high",
+    "failed_at": "2026-08-01T07:43:00",
+    "customer_id": "cust_0363"
+  },
+  {
+    "transaction_id": "txn_00093",
+    "amount_inr": 488.43,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T12:21:00",
+    "customer_id": "cust_0386"
+  },
+  {
+    "transaction_id": "txn_00094",
+    "amount_inr": 308.33,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-02T04:03:00",
+    "customer_id": "cust_0130"
+  },
+  {
+    "transaction_id": "txn_00095",
+    "amount_inr": 8333.7,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T14:53:00",
+    "customer_id": "cust_0028"
+  },
+  {
+    "transaction_id": "txn_00096",
+    "amount_inr": 16168.59,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-18T09:29:00",
+    "customer_id": "cust_0214"
+  },
+  {
+    "transaction_id": "txn_00097",
+    "amount_inr": 2851.58,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-07T18:23:00",
+    "customer_id": "cust_0302"
+  },
+  {
+    "transaction_id": "txn_00098",
+    "amount_inr": 329.46,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T05:36:00",
+    "customer_id": "cust_0109"
+  },
+  {
+    "transaction_id": "txn_00099",
+    "amount_inr": 2983.97,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T06:02:00",
+    "customer_id": "cust_0353"
+  },
+  {
+    "transaction_id": "txn_00100",
+    "amount_inr": 3681.3,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T14:52:00",
+    "customer_id": "cust_0352"
+  },
+  {
+    "transaction_id": "txn_00101",
+    "amount_inr": 406.06,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T16:10:00",
+    "customer_id": "cust_0059"
+  },
+  {
+    "transaction_id": "txn_00102",
+    "amount_inr": 458.79,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T00:52:00",
+    "customer_id": "cust_0158"
+  },
+  {
+    "transaction_id": "txn_00103",
+    "amount_inr": 2476.19,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-16T22:08:00",
+    "customer_id": "cust_0207"
+  },
+  {
+    "transaction_id": "txn_00104",
+    "amount_inr": 861.99,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T17:09:00",
+    "customer_id": "cust_0166"
+  },
+  {
+    "transaction_id": "txn_00105",
+    "amount_inr": 43723.26,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T11:19:00",
+    "customer_id": "cust_0392"
+  },
+  {
+    "transaction_id": "txn_00106",
+    "amount_inr": 26172.54,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T01:30:00",
+    "customer_id": "cust_0143"
+  },
+  {
+    "transaction_id": "txn_00107",
+    "amount_inr": 2712.77,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T07:00:00",
+    "customer_id": "cust_0171"
+  },
+  {
+    "transaction_id": "txn_00108",
+    "amount_inr": 27296.11,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T02:42:00",
+    "customer_id": "cust_0390"
+  },
+  {
+    "transaction_id": "txn_00109",
+    "amount_inr": 1954.73,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T16:21:00",
+    "customer_id": "cust_0264"
+  },
+  {
+    "transaction_id": "txn_00110",
+    "amount_inr": 7439.18,
+    "amount_bucket": "high",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T05:34:00",
+    "customer_id": "cust_0319"
+  },
+  {
+    "transaction_id": "txn_00111",
+    "amount_inr": 1416.01,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T23:16:00",
+    "customer_id": "cust_0358"
+  },
+  {
+    "transaction_id": "txn_00112",
+    "amount_inr": 4096.91,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T12:49:00",
+    "customer_id": "cust_0008"
+  },
+  {
+    "transaction_id": "txn_00113",
+    "amount_inr": 496.52,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T17:44:00",
+    "customer_id": "cust_0079"
+  },
+  {
+    "transaction_id": "txn_00114",
+    "amount_inr": 1730.41,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-06T13:06:00",
+    "customer_id": "cust_0234"
+  },
+  {
+    "transaction_id": "txn_00115",
+    "amount_inr": 464.84,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T06:52:00",
+    "customer_id": "cust_0396"
+  },
+  {
+    "transaction_id": "txn_00116",
+    "amount_inr": 2784.82,
+    "amount_bucket": "mid",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T12:31:00",
+    "customer_id": "cust_0153"
+  },
+  {
+    "transaction_id": "txn_00117",
+    "amount_inr": 4393.67,
+    "amount_bucket": "mid",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T20:29:00",
+    "customer_id": "cust_0171"
+  },
+  {
+    "transaction_id": "txn_00118",
+    "amount_inr": 13489.36,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-06T10:25:00",
+    "customer_id": "cust_0293"
+  },
+  {
+    "transaction_id": "txn_00119",
+    "amount_inr": 1931.79,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-09T18:51:00",
+    "customer_id": "cust_0340"
+  },
+  {
+    "transaction_id": "txn_00120",
+    "amount_inr": 10681.08,
+    "amount_bucket": "high",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T13:18:00",
+    "customer_id": "cust_0052"
+  },
+  {
+    "transaction_id": "txn_00121",
+    "amount_inr": 2556.18,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T19:38:00",
+    "customer_id": "cust_0336"
+  },
+  {
+    "transaction_id": "txn_00122",
+    "amount_inr": 1692.6,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T18:53:00",
+    "customer_id": "cust_0042"
+  },
+  {
+    "transaction_id": "txn_00123",
+    "amount_inr": 19249.75,
+    "amount_bucket": "high",
+    "failure_reason": "card_expired",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-21T04:39:00",
+    "customer_id": "cust_0389"
+  },
+  {
+    "transaction_id": "txn_00124",
+    "amount_inr": 1556.47,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-06T04:14:00",
+    "customer_id": "cust_0383"
+  },
+  {
+    "transaction_id": "txn_00125",
+    "amount_inr": 392.17,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "high",
+    "failed_at": "2026-08-16T19:01:00",
+    "customer_id": "cust_0154"
+  },
+  {
+    "transaction_id": "txn_00126",
+    "amount_inr": 408.26,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-06T13:21:00",
+    "customer_id": "cust_0272"
+  },
+  {
+    "transaction_id": "txn_00127",
+    "amount_inr": 1287.81,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T02:26:00",
+    "customer_id": "cust_0350"
+  },
+  {
+    "transaction_id": "txn_00128",
+    "amount_inr": 2575.17,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-16T04:11:00",
+    "customer_id": "cust_0005"
+  },
+  {
+    "transaction_id": "txn_00129",
+    "amount_inr": 2959.69,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T08:53:00",
+    "customer_id": "cust_0154"
+  },
+  {
+    "transaction_id": "txn_00130",
+    "amount_inr": 4303.87,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T10:02:00",
+    "customer_id": "cust_0248"
+  },
+  {
+    "transaction_id": "txn_00131",
+    "amount_inr": 211.53,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T21:18:00",
+    "customer_id": "cust_0338"
+  },
+  {
+    "transaction_id": "txn_00132",
+    "amount_inr": 48812.13,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T22:57:00",
+    "customer_id": "cust_0255"
+  },
+  {
+    "transaction_id": "txn_00133",
+    "amount_inr": 399.08,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-15T11:40:00",
+    "customer_id": "cust_0098"
+  },
+  {
+    "transaction_id": "txn_00134",
+    "amount_inr": 42725.17,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T05:03:00",
+    "customer_id": "cust_0322"
+  },
+  {
+    "transaction_id": "txn_00135",
+    "amount_inr": 248.37,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-21T16:46:00",
+    "customer_id": "cust_0152"
+  },
+  {
+    "transaction_id": "txn_00136",
+    "amount_inr": 4039.31,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T01:54:00",
+    "customer_id": "cust_0257"
+  },
+  {
+    "transaction_id": "txn_00137",
+    "amount_inr": 4211.1,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-17T23:43:00",
+    "customer_id": "cust_0174"
+  },
+  {
+    "transaction_id": "txn_00138",
+    "amount_inr": 15152.66,
+    "amount_bucket": "high",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T11:31:00",
+    "customer_id": "cust_0346"
+  },
+  {
+    "transaction_id": "txn_00139",
+    "amount_inr": 412.06,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "high",
+    "failed_at": "2026-08-07T00:25:00",
+    "customer_id": "cust_0275"
+  },
+  {
+    "transaction_id": "txn_00140",
+    "amount_inr": 22146.15,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T10:52:00",
+    "customer_id": "cust_0056"
+  },
+  {
+    "transaction_id": "txn_00141",
+    "amount_inr": 19760.28,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-06T00:53:00",
+    "customer_id": "cust_0332"
+  },
+  {
+    "transaction_id": "txn_00142",
+    "amount_inr": 459.22,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-02T00:45:00",
+    "customer_id": "cust_0020"
+  },
+  {
+    "transaction_id": "txn_00143",
+    "amount_inr": 4492.67,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T10:37:00",
+    "customer_id": "cust_0344"
+  },
+  {
+    "transaction_id": "txn_00144",
+    "amount_inr": 3143.03,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T21:40:00",
+    "customer_id": "cust_0051"
+  },
+  {
+    "transaction_id": "txn_00145",
+    "amount_inr": 472.57,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T02:08:00",
+    "customer_id": "cust_0228"
+  },
+  {
+    "transaction_id": "txn_00146",
+    "amount_inr": 29500.96,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-09T03:53:00",
+    "customer_id": "cust_0032"
+  },
+  {
+    "transaction_id": "txn_00147",
+    "amount_inr": 25462.28,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-05T19:50:00",
+    "customer_id": "cust_0329"
+  },
+  {
+    "transaction_id": "txn_00148",
+    "amount_inr": 49496.94,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "high",
+    "failed_at": "2026-08-05T16:04:00",
+    "customer_id": "cust_0036"
+  },
+  {
+    "transaction_id": "txn_00149",
+    "amount_inr": 313.87,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-18T22:42:00",
+    "customer_id": "cust_0306"
+  },
+  {
+    "transaction_id": "txn_00150",
+    "amount_inr": 115.11,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-03T12:02:00",
+    "customer_id": "cust_0339"
+  },
+  {
+    "transaction_id": "txn_00151",
+    "amount_inr": 211.21,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T23:09:00",
+    "customer_id": "cust_0136"
+  },
+  {
+    "transaction_id": "txn_00152",
+    "amount_inr": 3855.49,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-12T16:17:00",
+    "customer_id": "cust_0304"
+  },
+  {
+    "transaction_id": "txn_00153",
+    "amount_inr": 40245.21,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T20:46:00",
+    "customer_id": "cust_0155"
+  },
+  {
+    "transaction_id": "txn_00154",
+    "amount_inr": 23072.78,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "high",
+    "failed_at": "2026-08-03T10:57:00",
+    "customer_id": "cust_0252"
+  },
+  {
+    "transaction_id": "txn_00155",
+    "amount_inr": 454.67,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T06:11:00",
+    "customer_id": "cust_0320"
+  },
+  {
+    "transaction_id": "txn_00156",
+    "amount_inr": 4975.82,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T12:05:00",
+    "customer_id": "cust_0310"
+  },
+  {
+    "transaction_id": "txn_00157",
+    "amount_inr": 44496.78,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-17T09:40:00",
+    "customer_id": "cust_0111"
+  },
+  {
+    "transaction_id": "txn_00158",
+    "amount_inr": 22942.86,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-03T03:55:00",
+    "customer_id": "cust_0161"
+  },
+  {
+    "transaction_id": "txn_00159",
+    "amount_inr": 218.44,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T01:49:00",
+    "customer_id": "cust_0044"
+  },
+  {
+    "transaction_id": "txn_00160",
+    "amount_inr": 30036.68,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T18:42:00",
+    "customer_id": "cust_0288"
+  },
+  {
+    "transaction_id": "txn_00161",
+    "amount_inr": 38762.79,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T04:05:00",
+    "customer_id": "cust_0148"
+  },
+  {
+    "transaction_id": "txn_00162",
+    "amount_inr": 310.06,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T06:43:00",
+    "customer_id": "cust_0056"
+  },
+  {
+    "transaction_id": "txn_00163",
+    "amount_inr": 1753.56,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T05:34:00",
+    "customer_id": "cust_0288"
+  },
+  {
+    "transaction_id": "txn_00164",
+    "amount_inr": 6181.42,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-19T20:59:00",
+    "customer_id": "cust_0356"
+  },
+  {
+    "transaction_id": "txn_00165",
+    "amount_inr": 366.21,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-05T03:04:00",
+    "customer_id": "cust_0074"
+  },
+  {
+    "transaction_id": "txn_00166",
+    "amount_inr": 6379.57,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T01:42:00",
+    "customer_id": "cust_0111"
+  },
+  {
+    "transaction_id": "txn_00167",
+    "amount_inr": 19597.23,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T13:37:00",
+    "customer_id": "cust_0044"
+  },
+  {
+    "transaction_id": "txn_00168",
+    "amount_inr": 723.93,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T01:30:00",
+    "customer_id": "cust_0218"
+  },
+  {
+    "transaction_id": "txn_00169",
+    "amount_inr": 3897.24,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T12:33:00",
+    "customer_id": "cust_0146"
+  },
+  {
+    "transaction_id": "txn_00170",
+    "amount_inr": 14923.33,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T05:55:00",
+    "customer_id": "cust_0004"
+  },
+  {
+    "transaction_id": "txn_00171",
+    "amount_inr": 395.31,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "high",
+    "failed_at": "2026-08-01T04:13:00",
+    "customer_id": "cust_0255"
+  },
+  {
+    "transaction_id": "txn_00172",
+    "amount_inr": 27511.81,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T08:17:00",
+    "customer_id": "cust_0182"
+  },
+  {
+    "transaction_id": "txn_00173",
+    "amount_inr": 584.34,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-14T02:26:00",
+    "customer_id": "cust_0220"
+  },
+  {
+    "transaction_id": "txn_00174",
+    "amount_inr": 1018.28,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-04T21:51:00",
+    "customer_id": "cust_0317"
+  },
+  {
+    "transaction_id": "txn_00175",
+    "amount_inr": 2465.2,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T09:36:00",
+    "customer_id": "cust_0206"
+  },
+  {
+    "transaction_id": "txn_00176",
+    "amount_inr": 189.62,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T17:42:00",
+    "customer_id": "cust_0262"
+  },
+  {
+    "transaction_id": "txn_00177",
+    "amount_inr": 20799.49,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T13:07:00",
+    "customer_id": "cust_0076"
+  },
+  {
+    "transaction_id": "txn_00178",
+    "amount_inr": 39209.69,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T17:09:00",
+    "customer_id": "cust_0091"
+  },
+  {
+    "transaction_id": "txn_00179",
+    "amount_inr": 31076.06,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-21T01:42:00",
+    "customer_id": "cust_0290"
+  },
+  {
+    "transaction_id": "txn_00180",
+    "amount_inr": 4869.38,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "high",
+    "failed_at": "2026-08-02T13:17:00",
+    "customer_id": "cust_0241"
+  },
+  {
+    "transaction_id": "txn_00181",
+    "amount_inr": 752.77,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T12:10:00",
+    "customer_id": "cust_0232"
+  },
+  {
+    "transaction_id": "txn_00182",
+    "amount_inr": 179.18,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T23:52:00",
+    "customer_id": "cust_0305"
+  },
+  {
+    "transaction_id": "txn_00183",
+    "amount_inr": 4063.18,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-21T16:27:00",
+    "customer_id": "cust_0293"
+  },
+  {
+    "transaction_id": "txn_00184",
+    "amount_inr": 264.03,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T10:53:00",
+    "customer_id": "cust_0176"
+  },
+  {
+    "transaction_id": "txn_00185",
+    "amount_inr": 676.14,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T22:12:00",
+    "customer_id": "cust_0268"
+  },
+  {
+    "transaction_id": "txn_00186",
+    "amount_inr": 39850.92,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T14:31:00",
+    "customer_id": "cust_0027"
+  },
+  {
+    "transaction_id": "txn_00187",
+    "amount_inr": 925.28,
+    "amount_bucket": "mid",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-06T17:37:00",
+    "customer_id": "cust_0371"
+  },
+  {
+    "transaction_id": "txn_00188",
+    "amount_inr": 8667.59,
+    "amount_bucket": "high",
+    "failure_reason": "card_expired",
+    "customer_risk": "high",
+    "failed_at": "2026-08-04T05:14:00",
+    "customer_id": "cust_0180"
+  },
+  {
+    "transaction_id": "txn_00189",
+    "amount_inr": 347.96,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T01:04:00",
+    "customer_id": "cust_0287"
+  },
+  {
+    "transaction_id": "txn_00190",
+    "amount_inr": 42303.15,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-16T14:19:00",
+    "customer_id": "cust_0270"
+  },
+  {
+    "transaction_id": "txn_00191",
+    "amount_inr": 278.82,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T18:37:00",
+    "customer_id": "cust_0393"
+  },
+  {
+    "transaction_id": "txn_00192",
+    "amount_inr": 111.9,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T13:15:00",
+    "customer_id": "cust_0395"
+  },
+  {
+    "transaction_id": "txn_00193",
+    "amount_inr": 44437.67,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-03T23:34:00",
+    "customer_id": "cust_0306"
+  },
+  {
+    "transaction_id": "txn_00194",
+    "amount_inr": 424.11,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T09:51:00",
+    "customer_id": "cust_0225"
+  },
+  {
+    "transaction_id": "txn_00195",
+    "amount_inr": 32476.79,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-18T20:03:00",
+    "customer_id": "cust_0230"
+  },
+  {
+    "transaction_id": "txn_00196",
+    "amount_inr": 484.52,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T08:53:00",
+    "customer_id": "cust_0348"
+  },
+  {
+    "transaction_id": "txn_00197",
+    "amount_inr": 22184.26,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "high",
+    "failed_at": "2026-08-10T12:38:00",
+    "customer_id": "cust_0083"
+  },
+  {
+    "transaction_id": "txn_00198",
+    "amount_inr": 1625.01,
+    "amount_bucket": "mid",
+    "failure_reason": "card_expired",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-13T14:51:00",
+    "customer_id": "cust_0053"
+  },
+  {
+    "transaction_id": "txn_00199",
+    "amount_inr": 877.44,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-21T14:25:00",
+    "customer_id": "cust_0263"
+  },
+  {
+    "transaction_id": "txn_00200",
+    "amount_inr": 1499.17,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T14:33:00",
+    "customer_id": "cust_0213"
+  },
+  {
+    "transaction_id": "txn_00201",
+    "amount_inr": 156.1,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T06:02:00",
+    "customer_id": "cust_0051"
+  },
+  {
+    "transaction_id": "txn_00202",
+    "amount_inr": 1119.2,
+    "amount_bucket": "mid",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T20:08:00",
+    "customer_id": "cust_0072"
+  },
+  {
+    "transaction_id": "txn_00203",
+    "amount_inr": 326.91,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T00:00:00",
+    "customer_id": "cust_0077"
+  },
+  {
+    "transaction_id": "txn_00204",
+    "amount_inr": 1000.34,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-03T18:32:00",
+    "customer_id": "cust_0025"
+  },
+  {
+    "transaction_id": "txn_00205",
+    "amount_inr": 782.63,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T13:53:00",
+    "customer_id": "cust_0275"
+  },
+  {
+    "transaction_id": "txn_00206",
+    "amount_inr": 24315.75,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T00:41:00",
+    "customer_id": "cust_0124"
+  },
+  {
+    "transaction_id": "txn_00207",
+    "amount_inr": 21227.17,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T09:08:00",
+    "customer_id": "cust_0260"
+  },
+  {
+    "transaction_id": "txn_00208",
+    "amount_inr": 4429.99,
+    "amount_bucket": "mid",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T11:52:00",
+    "customer_id": "cust_0130"
+  },
+  {
+    "transaction_id": "txn_00209",
+    "amount_inr": 80.4,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-18T13:20:00",
+    "customer_id": "cust_0298"
+  },
+  {
+    "transaction_id": "txn_00210",
+    "amount_inr": 69.95,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T21:30:00",
+    "customer_id": "cust_0399"
+  },
+  {
+    "transaction_id": "txn_00211",
+    "amount_inr": 11068.37,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "high",
+    "failed_at": "2026-08-18T15:54:00",
+    "customer_id": "cust_0235"
+  },
+  {
+    "transaction_id": "txn_00212",
+    "amount_inr": 4486.06,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T17:28:00",
+    "customer_id": "cust_0204"
+  },
+  {
+    "transaction_id": "txn_00213",
+    "amount_inr": 3889.81,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T14:50:00",
+    "customer_id": "cust_0400"
+  },
+  {
+    "transaction_id": "txn_00214",
+    "amount_inr": 4097.04,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T21:56:00",
+    "customer_id": "cust_0226"
+  },
+  {
+    "transaction_id": "txn_00215",
+    "amount_inr": 27388.55,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T01:39:00",
+    "customer_id": "cust_0043"
+  },
+  {
+    "transaction_id": "txn_00216",
+    "amount_inr": 4200.54,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T08:01:00",
+    "customer_id": "cust_0041"
+  },
+  {
+    "transaction_id": "txn_00217",
+    "amount_inr": 3729.48,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T23:59:00",
+    "customer_id": "cust_0229"
+  },
+  {
+    "transaction_id": "txn_00218",
+    "amount_inr": 208.65,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-02T16:58:00",
+    "customer_id": "cust_0344"
+  },
+  {
+    "transaction_id": "txn_00219",
+    "amount_inr": 410.49,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T07:29:00",
+    "customer_id": "cust_0312"
+  },
+  {
+    "transaction_id": "txn_00220",
+    "amount_inr": 1561.98,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T17:05:00",
+    "customer_id": "cust_0291"
+  },
+  {
+    "transaction_id": "txn_00221",
+    "amount_inr": 252.47,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T01:26:00",
+    "customer_id": "cust_0071"
+  },
+  {
+    "transaction_id": "txn_00222",
+    "amount_inr": 10105.19,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-05T05:36:00",
+    "customer_id": "cust_0256"
+  },
+  {
+    "transaction_id": "txn_00223",
+    "amount_inr": 102.99,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-14T22:09:00",
+    "customer_id": "cust_0147"
+  },
+  {
+    "transaction_id": "txn_00224",
+    "amount_inr": 140.08,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "high",
+    "failed_at": "2026-08-21T10:47:00",
+    "customer_id": "cust_0366"
+  },
+  {
+    "transaction_id": "txn_00225",
+    "amount_inr": 4304.85,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T03:30:00",
+    "customer_id": "cust_0034"
+  },
+  {
+    "transaction_id": "txn_00226",
+    "amount_inr": 36930.37,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T12:16:00",
+    "customer_id": "cust_0090"
+  },
+  {
+    "transaction_id": "txn_00227",
+    "amount_inr": 1404.41,
+    "amount_bucket": "mid",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T14:21:00",
+    "customer_id": "cust_0185"
+  },
+  {
+    "transaction_id": "txn_00228",
+    "amount_inr": 411.65,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T11:54:00",
+    "customer_id": "cust_0159"
+  },
+  {
+    "transaction_id": "txn_00229",
+    "amount_inr": 23424.51,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-02T16:16:00",
+    "customer_id": "cust_0065"
+  },
+  {
+    "transaction_id": "txn_00230",
+    "amount_inr": 20503.17,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T13:24:00",
+    "customer_id": "cust_0301"
+  },
+  {
+    "transaction_id": "txn_00231",
+    "amount_inr": 244.68,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "high",
+    "failed_at": "2026-08-12T18:57:00",
+    "customer_id": "cust_0079"
+  },
+  {
+    "transaction_id": "txn_00232",
+    "amount_inr": 47636.74,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-21T08:44:00",
+    "customer_id": "cust_0146"
+  },
+  {
+    "transaction_id": "txn_00233",
+    "amount_inr": 2978.79,
+    "amount_bucket": "mid",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T23:33:00",
+    "customer_id": "cust_0274"
+  },
+  {
+    "transaction_id": "txn_00234",
+    "amount_inr": 12704.03,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T09:33:00",
+    "customer_id": "cust_0310"
+  },
+  {
+    "transaction_id": "txn_00235",
+    "amount_inr": 8655.03,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "high",
+    "failed_at": "2026-08-18T13:04:00",
+    "customer_id": "cust_0296"
+  },
+  {
+    "transaction_id": "txn_00236",
+    "amount_inr": 6362.87,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T09:57:00",
+    "customer_id": "cust_0149"
+  },
+  {
+    "transaction_id": "txn_00237",
+    "amount_inr": 4133.07,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T15:51:00",
+    "customer_id": "cust_0353"
+  },
+  {
+    "transaction_id": "txn_00238",
+    "amount_inr": 1418.1,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T14:29:00",
+    "customer_id": "cust_0368"
+  },
+  {
+    "transaction_id": "txn_00239",
+    "amount_inr": 39229.92,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "high",
+    "failed_at": "2026-08-13T18:44:00",
+    "customer_id": "cust_0055"
+  },
+  {
+    "transaction_id": "txn_00240",
+    "amount_inr": 1615.63,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T17:47:00",
+    "customer_id": "cust_0316"
+  },
+  {
+    "transaction_id": "txn_00241",
+    "amount_inr": 47018.82,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "high",
+    "failed_at": "2026-08-08T02:47:00",
+    "customer_id": "cust_0098"
+  },
+  {
+    "transaction_id": "txn_00242",
+    "amount_inr": 281.63,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T01:10:00",
+    "customer_id": "cust_0202"
+  },
+  {
+    "transaction_id": "txn_00243",
+    "amount_inr": 2088.03,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "high",
+    "failed_at": "2026-08-14T14:19:00",
+    "customer_id": "cust_0335"
+  },
+  {
+    "transaction_id": "txn_00244",
+    "amount_inr": 983.74,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T13:18:00",
+    "customer_id": "cust_0188"
+  },
+  {
+    "transaction_id": "txn_00245",
+    "amount_inr": 13759.49,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T13:36:00",
+    "customer_id": "cust_0038"
+  },
+  {
+    "transaction_id": "txn_00246",
+    "amount_inr": 33045.87,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T16:53:00",
+    "customer_id": "cust_0066"
+  },
+  {
+    "transaction_id": "txn_00247",
+    "amount_inr": 407.7,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-05T12:42:00",
+    "customer_id": "cust_0309"
+  },
+  {
+    "transaction_id": "txn_00248",
+    "amount_inr": 1116.66,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T19:37:00",
+    "customer_id": "cust_0234"
+  },
+  {
+    "transaction_id": "txn_00249",
+    "amount_inr": 4691.16,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-15T00:41:00",
+    "customer_id": "cust_0379"
+  },
+  {
+    "transaction_id": "txn_00250",
+    "amount_inr": 27043.1,
+    "amount_bucket": "high",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T19:43:00",
+    "customer_id": "cust_0244"
+  },
+  {
+    "transaction_id": "txn_00251",
+    "amount_inr": 31266.6,
+    "amount_bucket": "high",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T20:16:00",
+    "customer_id": "cust_0353"
+  },
+  {
+    "transaction_id": "txn_00252",
+    "amount_inr": 48742.56,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T03:27:00",
+    "customer_id": "cust_0117"
+  },
+  {
+    "transaction_id": "txn_00253",
+    "amount_inr": 3330.61,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T08:42:00",
+    "customer_id": "cust_0349"
+  },
+  {
+    "transaction_id": "txn_00254",
+    "amount_inr": 1358.53,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T10:42:00",
+    "customer_id": "cust_0212"
+  },
+  {
+    "transaction_id": "txn_00255",
+    "amount_inr": 44276.8,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T13:15:00",
+    "customer_id": "cust_0032"
+  },
+  {
+    "transaction_id": "txn_00256",
+    "amount_inr": 4991.55,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T03:21:00",
+    "customer_id": "cust_0089"
+  },
+  {
+    "transaction_id": "txn_00257",
+    "amount_inr": 44044.45,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T15:19:00",
+    "customer_id": "cust_0355"
+  },
+  {
+    "transaction_id": "txn_00258",
+    "amount_inr": 1755.53,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-18T13:09:00",
+    "customer_id": "cust_0148"
+  },
+  {
+    "transaction_id": "txn_00259",
+    "amount_inr": 30221.94,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T05:20:00",
+    "customer_id": "cust_0148"
+  },
+  {
+    "transaction_id": "txn_00260",
+    "amount_inr": 220.86,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T14:37:00",
+    "customer_id": "cust_0022"
+  },
+  {
+    "transaction_id": "txn_00261",
+    "amount_inr": 2490.69,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-05T20:51:00",
+    "customer_id": "cust_0104"
+  },
+  {
+    "transaction_id": "txn_00262",
+    "amount_inr": 9915.2,
+    "amount_bucket": "high",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T08:29:00",
+    "customer_id": "cust_0123"
+  },
+  {
+    "transaction_id": "txn_00263",
+    "amount_inr": 3370.75,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T12:23:00",
+    "customer_id": "cust_0368"
+  },
+  {
+    "transaction_id": "txn_00264",
+    "amount_inr": 111.86,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T06:13:00",
+    "customer_id": "cust_0335"
+  },
+  {
+    "transaction_id": "txn_00265",
+    "amount_inr": 1397.55,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-07T11:52:00",
+    "customer_id": "cust_0331"
+  },
+  {
+    "transaction_id": "txn_00266",
+    "amount_inr": 343.53,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-21T18:44:00",
+    "customer_id": "cust_0090"
+  },
+  {
+    "transaction_id": "txn_00267",
+    "amount_inr": 663.53,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-05T05:45:00",
+    "customer_id": "cust_0384"
+  },
+  {
+    "transaction_id": "txn_00268",
+    "amount_inr": 444.53,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "high",
+    "failed_at": "2026-08-08T14:58:00",
+    "customer_id": "cust_0146"
+  },
+  {
+    "transaction_id": "txn_00269",
+    "amount_inr": 11039.0,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T15:36:00",
+    "customer_id": "cust_0140"
+  },
+  {
+    "transaction_id": "txn_00270",
+    "amount_inr": 123.12,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T07:41:00",
+    "customer_id": "cust_0378"
+  },
+  {
+    "transaction_id": "txn_00271",
+    "amount_inr": 32492.95,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-21T09:54:00",
+    "customer_id": "cust_0208"
+  },
+  {
+    "transaction_id": "txn_00272",
+    "amount_inr": 89.03,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T20:45:00",
+    "customer_id": "cust_0166"
+  },
+  {
+    "transaction_id": "txn_00273",
+    "amount_inr": 2510.31,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T20:54:00",
+    "customer_id": "cust_0299"
+  },
+  {
+    "transaction_id": "txn_00274",
+    "amount_inr": 344.16,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T14:10:00",
+    "customer_id": "cust_0158"
+  },
+  {
+    "transaction_id": "txn_00275",
+    "amount_inr": 39642.85,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T16:07:00",
+    "customer_id": "cust_0328"
+  },
+  {
+    "transaction_id": "txn_00276",
+    "amount_inr": 326.58,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T08:28:00",
+    "customer_id": "cust_0383"
+  },
+  {
+    "transaction_id": "txn_00277",
+    "amount_inr": 39080.77,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T18:53:00",
+    "customer_id": "cust_0112"
+  },
+  {
+    "transaction_id": "txn_00278",
+    "amount_inr": 28647.8,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T00:21:00",
+    "customer_id": "cust_0186"
+  },
+  {
+    "transaction_id": "txn_00279",
+    "amount_inr": 27746.92,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T05:05:00",
+    "customer_id": "cust_0077"
+  },
+  {
+    "transaction_id": "txn_00280",
+    "amount_inr": 3561.33,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-03T01:39:00",
+    "customer_id": "cust_0262"
+  },
+  {
+    "transaction_id": "txn_00281",
+    "amount_inr": 30376.0,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T12:31:00",
+    "customer_id": "cust_0345"
+  },
+  {
+    "transaction_id": "txn_00282",
+    "amount_inr": 38561.2,
+    "amount_bucket": "high",
+    "failure_reason": "card_expired",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-02T15:53:00",
+    "customer_id": "cust_0024"
+  },
+  {
+    "transaction_id": "txn_00283",
+    "amount_inr": 771.15,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-01T17:19:00",
+    "customer_id": "cust_0147"
+  },
+  {
+    "transaction_id": "txn_00284",
+    "amount_inr": 4902.5,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-09T12:30:00",
+    "customer_id": "cust_0196"
+  },
+  {
+    "transaction_id": "txn_00285",
+    "amount_inr": 48386.5,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-04T00:37:00",
+    "customer_id": "cust_0335"
+  },
+  {
+    "transaction_id": "txn_00286",
+    "amount_inr": 496.78,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T23:55:00",
+    "customer_id": "cust_0002"
+  },
+  {
+    "transaction_id": "txn_00287",
+    "amount_inr": 3735.92,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "high",
+    "failed_at": "2026-08-19T17:39:00",
+    "customer_id": "cust_0118"
+  },
+  {
+    "transaction_id": "txn_00288",
+    "amount_inr": 174.04,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T17:35:00",
+    "customer_id": "cust_0339"
+  },
+  {
+    "transaction_id": "txn_00289",
+    "amount_inr": 447.69,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-14T12:22:00",
+    "customer_id": "cust_0018"
+  },
+  {
+    "transaction_id": "txn_00290",
+    "amount_inr": 1601.3,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-06T07:58:00",
+    "customer_id": "cust_0277"
+  },
+  {
+    "transaction_id": "txn_00291",
+    "amount_inr": 18016.86,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-14T02:37:00",
+    "customer_id": "cust_0164"
+  },
+  {
+    "transaction_id": "txn_00292",
+    "amount_inr": 44431.62,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-12T20:40:00",
+    "customer_id": "cust_0114"
+  },
+  {
+    "transaction_id": "txn_00293",
+    "amount_inr": 300.52,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T05:52:00",
+    "customer_id": "cust_0348"
+  },
+  {
+    "transaction_id": "txn_00294",
+    "amount_inr": 35210.41,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T06:04:00",
+    "customer_id": "cust_0357"
+  },
+  {
+    "transaction_id": "txn_00295",
+    "amount_inr": 219.41,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T20:14:00",
+    "customer_id": "cust_0363"
+  },
+  {
+    "transaction_id": "txn_00296",
+    "amount_inr": 23742.85,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T01:13:00",
+    "customer_id": "cust_0199"
+  },
+  {
+    "transaction_id": "txn_00297",
+    "amount_inr": 341.02,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T04:31:00",
+    "customer_id": "cust_0371"
+  },
+  {
+    "transaction_id": "txn_00298",
+    "amount_inr": 219.73,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-05T06:45:00",
+    "customer_id": "cust_0390"
+  },
+  {
+    "transaction_id": "txn_00299",
+    "amount_inr": 1440.0,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-21T16:25:00",
+    "customer_id": "cust_0008"
+  },
+  {
+    "transaction_id": "txn_00300",
+    "amount_inr": 383.66,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T19:54:00",
+    "customer_id": "cust_0310"
+  },
+  {
+    "transaction_id": "txn_00301",
+    "amount_inr": 1947.27,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T03:26:00",
+    "customer_id": "cust_0333"
+  },
+  {
+    "transaction_id": "txn_00302",
+    "amount_inr": 9437.37,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T16:24:00",
+    "customer_id": "cust_0390"
+  },
+  {
+    "transaction_id": "txn_00303",
+    "amount_inr": 216.82,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-17T20:49:00",
+    "customer_id": "cust_0075"
+  },
+  {
+    "transaction_id": "txn_00304",
+    "amount_inr": 312.81,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T12:09:00",
+    "customer_id": "cust_0118"
+  },
+  {
+    "transaction_id": "txn_00305",
+    "amount_inr": 3445.74,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-18T08:53:00",
+    "customer_id": "cust_0251"
+  },
+  {
+    "transaction_id": "txn_00306",
+    "amount_inr": 270.77,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T04:26:00",
+    "customer_id": "cust_0369"
+  },
+  {
+    "transaction_id": "txn_00307",
+    "amount_inr": 48075.66,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T18:28:00",
+    "customer_id": "cust_0039"
+  },
+  {
+    "transaction_id": "txn_00308",
+    "amount_inr": 393.95,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T13:07:00",
+    "customer_id": "cust_0363"
+  },
+  {
+    "transaction_id": "txn_00309",
+    "amount_inr": 33697.79,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-21T18:29:00",
+    "customer_id": "cust_0248"
+  },
+  {
+    "transaction_id": "txn_00310",
+    "amount_inr": 5752.68,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T06:02:00",
+    "customer_id": "cust_0275"
+  },
+  {
+    "transaction_id": "txn_00311",
+    "amount_inr": 415.92,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T10:26:00",
+    "customer_id": "cust_0050"
+  },
+  {
+    "transaction_id": "txn_00312",
+    "amount_inr": 1635.88,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T19:09:00",
+    "customer_id": "cust_0192"
+  },
+  {
+    "transaction_id": "txn_00313",
+    "amount_inr": 159.44,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T21:01:00",
+    "customer_id": "cust_0333"
+  },
+  {
+    "transaction_id": "txn_00314",
+    "amount_inr": 220.67,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T23:50:00",
+    "customer_id": "cust_0088"
+  },
+  {
+    "transaction_id": "txn_00315",
+    "amount_inr": 340.21,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-21T08:40:00",
+    "customer_id": "cust_0271"
+  },
+  {
+    "transaction_id": "txn_00316",
+    "amount_inr": 3615.29,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T01:25:00",
+    "customer_id": "cust_0039"
+  },
+  {
+    "transaction_id": "txn_00317",
+    "amount_inr": 3461.49,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T08:33:00",
+    "customer_id": "cust_0107"
+  },
+  {
+    "transaction_id": "txn_00318",
+    "amount_inr": 370.72,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-13T19:59:00",
+    "customer_id": "cust_0124"
+  },
+  {
+    "transaction_id": "txn_00319",
+    "amount_inr": 22273.08,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-04T04:25:00",
+    "customer_id": "cust_0353"
+  },
+  {
+    "transaction_id": "txn_00320",
+    "amount_inr": 488.45,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T18:00:00",
+    "customer_id": "cust_0310"
+  },
+  {
+    "transaction_id": "txn_00321",
+    "amount_inr": 3981.0,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "high",
+    "failed_at": "2026-08-18T19:55:00",
+    "customer_id": "cust_0231"
+  },
+  {
+    "transaction_id": "txn_00322",
+    "amount_inr": 35586.27,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T15:34:00",
+    "customer_id": "cust_0044"
+  },
+  {
+    "transaction_id": "txn_00323",
+    "amount_inr": 830.78,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T04:40:00",
+    "customer_id": "cust_0325"
+  },
+  {
+    "transaction_id": "txn_00324",
+    "amount_inr": 911.84,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T04:33:00",
+    "customer_id": "cust_0390"
+  },
+  {
+    "transaction_id": "txn_00325",
+    "amount_inr": 2519.8,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T08:24:00",
+    "customer_id": "cust_0014"
+  },
+  {
+    "transaction_id": "txn_00326",
+    "amount_inr": 318.62,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T15:23:00",
+    "customer_id": "cust_0212"
+  },
+  {
+    "transaction_id": "txn_00327",
+    "amount_inr": 49017.79,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T20:35:00",
+    "customer_id": "cust_0087"
+  },
+  {
+    "transaction_id": "txn_00328",
+    "amount_inr": 171.01,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T21:23:00",
+    "customer_id": "cust_0142"
+  },
+  {
+    "transaction_id": "txn_00329",
+    "amount_inr": 16096.55,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T06:46:00",
+    "customer_id": "cust_0305"
+  },
+  {
+    "transaction_id": "txn_00330",
+    "amount_inr": 22806.14,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T15:28:00",
+    "customer_id": "cust_0169"
+  },
+  {
+    "transaction_id": "txn_00331",
+    "amount_inr": 3429.67,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T07:07:00",
+    "customer_id": "cust_0309"
+  },
+  {
+    "transaction_id": "txn_00332",
+    "amount_inr": 4840.59,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T17:20:00",
+    "customer_id": "cust_0356"
+  },
+  {
+    "transaction_id": "txn_00333",
+    "amount_inr": 1966.49,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "high",
+    "failed_at": "2026-08-09T07:20:00",
+    "customer_id": "cust_0059"
+  },
+  {
+    "transaction_id": "txn_00334",
+    "amount_inr": 498.77,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T13:09:00",
+    "customer_id": "cust_0237"
+  },
+  {
+    "transaction_id": "txn_00335",
+    "amount_inr": 4240.77,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T07:32:00",
+    "customer_id": "cust_0256"
+  },
+  {
+    "transaction_id": "txn_00336",
+    "amount_inr": 1193.64,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T16:23:00",
+    "customer_id": "cust_0230"
+  },
+  {
+    "transaction_id": "txn_00337",
+    "amount_inr": 46417.65,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T12:26:00",
+    "customer_id": "cust_0279"
+  },
+  {
+    "transaction_id": "txn_00338",
+    "amount_inr": 365.74,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "high",
+    "failed_at": "2026-08-03T11:43:00",
+    "customer_id": "cust_0394"
+  },
+  {
+    "transaction_id": "txn_00339",
+    "amount_inr": 30344.91,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T09:59:00",
+    "customer_id": "cust_0332"
+  },
+  {
+    "transaction_id": "txn_00340",
+    "amount_inr": 2437.05,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-06T01:14:00",
+    "customer_id": "cust_0262"
+  },
+  {
+    "transaction_id": "txn_00341",
+    "amount_inr": 1494.64,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-18T13:48:00",
+    "customer_id": "cust_0348"
+  },
+  {
+    "transaction_id": "txn_00342",
+    "amount_inr": 610.53,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-21T22:44:00",
+    "customer_id": "cust_0044"
+  },
+  {
+    "transaction_id": "txn_00343",
+    "amount_inr": 113.75,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "high",
+    "failed_at": "2026-08-12T20:35:00",
+    "customer_id": "cust_0248"
+  },
+  {
+    "transaction_id": "txn_00344",
+    "amount_inr": 374.9,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T10:28:00",
+    "customer_id": "cust_0364"
+  },
+  {
+    "transaction_id": "txn_00345",
+    "amount_inr": 12395.93,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-06T13:12:00",
+    "customer_id": "cust_0265"
+  },
+  {
+    "transaction_id": "txn_00346",
+    "amount_inr": 4813.08,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T07:55:00",
+    "customer_id": "cust_0095"
+  },
+  {
+    "transaction_id": "txn_00347",
+    "amount_inr": 3818.25,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T11:25:00",
+    "customer_id": "cust_0220"
+  },
+  {
+    "transaction_id": "txn_00348",
+    "amount_inr": 142.6,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-14T03:18:00",
+    "customer_id": "cust_0053"
+  },
+  {
+    "transaction_id": "txn_00349",
+    "amount_inr": 10127.97,
+    "amount_bucket": "high",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T15:06:00",
+    "customer_id": "cust_0251"
+  },
+  {
+    "transaction_id": "txn_00350",
+    "amount_inr": 3250.89,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T00:13:00",
+    "customer_id": "cust_0235"
+  },
+  {
+    "transaction_id": "txn_00351",
+    "amount_inr": 367.69,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-16T07:03:00",
+    "customer_id": "cust_0069"
+  },
+  {
+    "transaction_id": "txn_00352",
+    "amount_inr": 2179.88,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T12:24:00",
+    "customer_id": "cust_0306"
+  },
+  {
+    "transaction_id": "txn_00353",
+    "amount_inr": 36204.48,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T22:36:00",
+    "customer_id": "cust_0285"
+  },
+  {
+    "transaction_id": "txn_00354",
+    "amount_inr": 4288.93,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T05:14:00",
+    "customer_id": "cust_0249"
+  },
+  {
+    "transaction_id": "txn_00355",
+    "amount_inr": 27273.64,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-12T04:32:00",
+    "customer_id": "cust_0213"
+  },
+  {
+    "transaction_id": "txn_00356",
+    "amount_inr": 125.26,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T15:31:00",
+    "customer_id": "cust_0017"
+  },
+  {
+    "transaction_id": "txn_00357",
+    "amount_inr": 2557.95,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T12:13:00",
+    "customer_id": "cust_0262"
+  },
+  {
+    "transaction_id": "txn_00358",
+    "amount_inr": 398.8,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-18T07:03:00",
+    "customer_id": "cust_0369"
+  },
+  {
+    "transaction_id": "txn_00359",
+    "amount_inr": 241.32,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T18:35:00",
+    "customer_id": "cust_0017"
+  },
+  {
+    "transaction_id": "txn_00360",
+    "amount_inr": 417.53,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-05T18:37:00",
+    "customer_id": "cust_0378"
+  },
+  {
+    "transaction_id": "txn_00361",
+    "amount_inr": 369.84,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-18T20:37:00",
+    "customer_id": "cust_0106"
+  },
+  {
+    "transaction_id": "txn_00362",
+    "amount_inr": 306.53,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-08T08:45:00",
+    "customer_id": "cust_0361"
+  },
+  {
+    "transaction_id": "txn_00363",
+    "amount_inr": 478.58,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T02:02:00",
+    "customer_id": "cust_0385"
+  },
+  {
+    "transaction_id": "txn_00364",
+    "amount_inr": 496.62,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-06T16:21:00",
+    "customer_id": "cust_0075"
+  },
+  {
+    "transaction_id": "txn_00365",
+    "amount_inr": 27025.64,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-15T09:22:00",
+    "customer_id": "cust_0138"
+  },
+  {
+    "transaction_id": "txn_00366",
+    "amount_inr": 4075.69,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T17:35:00",
+    "customer_id": "cust_0384"
+  },
+  {
+    "transaction_id": "txn_00367",
+    "amount_inr": 216.08,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "high",
+    "failed_at": "2026-08-20T18:32:00",
+    "customer_id": "cust_0397"
+  },
+  {
+    "transaction_id": "txn_00368",
+    "amount_inr": 487.47,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T02:32:00",
+    "customer_id": "cust_0274"
+  },
+  {
+    "transaction_id": "txn_00369",
+    "amount_inr": 2726.22,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "high",
+    "failed_at": "2026-08-08T16:27:00",
+    "customer_id": "cust_0281"
+  },
+  {
+    "transaction_id": "txn_00370",
+    "amount_inr": 268.4,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T01:05:00",
+    "customer_id": "cust_0051"
+  },
+  {
+    "transaction_id": "txn_00371",
+    "amount_inr": 4682.45,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-01T00:22:00",
+    "customer_id": "cust_0220"
+  },
+  {
+    "transaction_id": "txn_00372",
+    "amount_inr": 3424.99,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T02:58:00",
+    "customer_id": "cust_0336"
+  },
+  {
+    "transaction_id": "txn_00373",
+    "amount_inr": 7330.43,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T22:50:00",
+    "customer_id": "cust_0372"
+  },
+  {
+    "transaction_id": "txn_00374",
+    "amount_inr": 3666.64,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T18:33:00",
+    "customer_id": "cust_0068"
+  },
+  {
+    "transaction_id": "txn_00375",
+    "amount_inr": 250.28,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T13:51:00",
+    "customer_id": "cust_0217"
+  },
+  {
+    "transaction_id": "txn_00376",
+    "amount_inr": 153.03,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T03:07:00",
+    "customer_id": "cust_0189"
+  },
+  {
+    "transaction_id": "txn_00377",
+    "amount_inr": 10991.58,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T06:01:00",
+    "customer_id": "cust_0036"
+  },
+  {
+    "transaction_id": "txn_00378",
+    "amount_inr": 37509.44,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-18T00:39:00",
+    "customer_id": "cust_0078"
+  },
+  {
+    "transaction_id": "txn_00379",
+    "amount_inr": 249.07,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-18T02:56:00",
+    "customer_id": "cust_0064"
+  },
+  {
+    "transaction_id": "txn_00380",
+    "amount_inr": 1915.27,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T16:02:00",
+    "customer_id": "cust_0044"
+  },
+  {
+    "transaction_id": "txn_00381",
+    "amount_inr": 374.53,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T07:03:00",
+    "customer_id": "cust_0338"
+  },
+  {
+    "transaction_id": "txn_00382",
+    "amount_inr": 22628.8,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T05:48:00",
+    "customer_id": "cust_0123"
+  },
+  {
+    "transaction_id": "txn_00383",
+    "amount_inr": 274.81,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T05:12:00",
+    "customer_id": "cust_0163"
+  },
+  {
+    "transaction_id": "txn_00384",
+    "amount_inr": 2144.36,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-18T12:43:00",
+    "customer_id": "cust_0038"
+  },
+  {
+    "transaction_id": "txn_00385",
+    "amount_inr": 679.22,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T12:40:00",
+    "customer_id": "cust_0147"
+  },
+  {
+    "transaction_id": "txn_00386",
+    "amount_inr": 8709.25,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T05:37:00",
+    "customer_id": "cust_0316"
+  },
+  {
+    "transaction_id": "txn_00387",
+    "amount_inr": 85.56,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T04:56:00",
+    "customer_id": "cust_0168"
+  },
+  {
+    "transaction_id": "txn_00388",
+    "amount_inr": 7975.18,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T22:55:00",
+    "customer_id": "cust_0374"
+  },
+  {
+    "transaction_id": "txn_00389",
+    "amount_inr": 10219.4,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T20:30:00",
+    "customer_id": "cust_0029"
+  },
+  {
+    "transaction_id": "txn_00390",
+    "amount_inr": 36855.53,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-01T06:11:00",
+    "customer_id": "cust_0084"
+  },
+  {
+    "transaction_id": "txn_00391",
+    "amount_inr": 4201.28,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T21:19:00",
+    "customer_id": "cust_0384"
+  },
+  {
+    "transaction_id": "txn_00392",
+    "amount_inr": 3971.44,
+    "amount_bucket": "mid",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T04:32:00",
+    "customer_id": "cust_0269"
+  },
+  {
+    "transaction_id": "txn_00393",
+    "amount_inr": 846.82,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-02T06:16:00",
+    "customer_id": "cust_0256"
+  },
+  {
+    "transaction_id": "txn_00394",
+    "amount_inr": 45242.08,
+    "amount_bucket": "high",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T10:44:00",
+    "customer_id": "cust_0060"
+  },
+  {
+    "transaction_id": "txn_00395",
+    "amount_inr": 4383.18,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T06:46:00",
+    "customer_id": "cust_0197"
+  },
+  {
+    "transaction_id": "txn_00396",
+    "amount_inr": 41140.2,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T20:30:00",
+    "customer_id": "cust_0336"
+  },
+  {
+    "transaction_id": "txn_00397",
+    "amount_inr": 237.32,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T00:08:00",
+    "customer_id": "cust_0191"
+  },
+  {
+    "transaction_id": "txn_00398",
+    "amount_inr": 73.7,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T02:57:00",
+    "customer_id": "cust_0036"
+  },
+  {
+    "transaction_id": "txn_00399",
+    "amount_inr": 1898.14,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-01T04:21:00",
+    "customer_id": "cust_0189"
+  },
+  {
+    "transaction_id": "txn_00400",
+    "amount_inr": 25876.7,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T05:26:00",
+    "customer_id": "cust_0396"
+  },
+  {
+    "transaction_id": "txn_00401",
+    "amount_inr": 4081.88,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-01T13:03:00",
+    "customer_id": "cust_0120"
+  },
+  {
+    "transaction_id": "txn_00402",
+    "amount_inr": 20075.78,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T13:29:00",
+    "customer_id": "cust_0378"
+  },
+  {
+    "transaction_id": "txn_00403",
+    "amount_inr": 288.42,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T05:45:00",
+    "customer_id": "cust_0365"
+  },
+  {
+    "transaction_id": "txn_00404",
+    "amount_inr": 4304.77,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T10:22:00",
+    "customer_id": "cust_0383"
+  },
+  {
+    "transaction_id": "txn_00405",
+    "amount_inr": 8367.37,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T10:00:00",
+    "customer_id": "cust_0223"
+  },
+  {
+    "transaction_id": "txn_00406",
+    "amount_inr": 4329.11,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T22:41:00",
+    "customer_id": "cust_0377"
+  },
+  {
+    "transaction_id": "txn_00407",
+    "amount_inr": 11125.03,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T11:30:00",
+    "customer_id": "cust_0080"
+  },
+  {
+    "transaction_id": "txn_00408",
+    "amount_inr": 191.31,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T06:48:00",
+    "customer_id": "cust_0158"
+  },
+  {
+    "transaction_id": "txn_00409",
+    "amount_inr": 18689.67,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-16T20:35:00",
+    "customer_id": "cust_0309"
+  },
+  {
+    "transaction_id": "txn_00410",
+    "amount_inr": 910.46,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-10T00:24:00",
+    "customer_id": "cust_0263"
+  },
+  {
+    "transaction_id": "txn_00411",
+    "amount_inr": 1282.4,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T15:37:00",
+    "customer_id": "cust_0384"
+  },
+  {
+    "transaction_id": "txn_00412",
+    "amount_inr": 95.86,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T21:29:00",
+    "customer_id": "cust_0400"
+  },
+  {
+    "transaction_id": "txn_00413",
+    "amount_inr": 33363.39,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T21:53:00",
+    "customer_id": "cust_0299"
+  },
+  {
+    "transaction_id": "txn_00414",
+    "amount_inr": 13898.77,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-11T02:10:00",
+    "customer_id": "cust_0066"
+  },
+  {
+    "transaction_id": "txn_00415",
+    "amount_inr": 414.0,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-04T19:44:00",
+    "customer_id": "cust_0294"
+  },
+  {
+    "transaction_id": "txn_00416",
+    "amount_inr": 2222.28,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-05T21:15:00",
+    "customer_id": "cust_0096"
+  },
+  {
+    "transaction_id": "txn_00417",
+    "amount_inr": 32763.97,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T17:10:00",
+    "customer_id": "cust_0256"
+  },
+  {
+    "transaction_id": "txn_00418",
+    "amount_inr": 77.44,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T14:58:00",
+    "customer_id": "cust_0270"
+  },
+  {
+    "transaction_id": "txn_00419",
+    "amount_inr": 22212.41,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "high",
+    "failed_at": "2026-08-09T04:07:00",
+    "customer_id": "cust_0246"
+  },
+  {
+    "transaction_id": "txn_00420",
+    "amount_inr": 460.7,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T14:14:00",
+    "customer_id": "cust_0164"
+  },
+  {
+    "transaction_id": "txn_00421",
+    "amount_inr": 1764.2,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T01:08:00",
+    "customer_id": "cust_0184"
+  },
+  {
+    "transaction_id": "txn_00422",
+    "amount_inr": 950.6,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "high",
+    "failed_at": "2026-08-13T03:27:00",
+    "customer_id": "cust_0378"
+  },
+  {
+    "transaction_id": "txn_00423",
+    "amount_inr": 4309.27,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "high",
+    "failed_at": "2026-08-20T02:19:00",
+    "customer_id": "cust_0089"
+  },
+  {
+    "transaction_id": "txn_00424",
+    "amount_inr": 412.79,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T00:10:00",
+    "customer_id": "cust_0359"
+  },
+  {
+    "transaction_id": "txn_00425",
+    "amount_inr": 4767.66,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T08:04:00",
+    "customer_id": "cust_0159"
+  },
+  {
+    "transaction_id": "txn_00426",
+    "amount_inr": 3207.48,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T00:22:00",
+    "customer_id": "cust_0170"
+  },
+  {
+    "transaction_id": "txn_00427",
+    "amount_inr": 3726.22,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T08:31:00",
+    "customer_id": "cust_0012"
+  },
+  {
+    "transaction_id": "txn_00428",
+    "amount_inr": 999.14,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-02T15:36:00",
+    "customer_id": "cust_0192"
+  },
+  {
+    "transaction_id": "txn_00429",
+    "amount_inr": 313.71,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T15:57:00",
+    "customer_id": "cust_0224"
+  },
+  {
+    "transaction_id": "txn_00430",
+    "amount_inr": 48593.43,
+    "amount_bucket": "high",
+    "failure_reason": "card_expired",
+    "customer_risk": "high",
+    "failed_at": "2026-08-21T05:50:00",
+    "customer_id": "cust_0315"
+  },
+  {
+    "transaction_id": "txn_00431",
+    "amount_inr": 18807.05,
+    "amount_bucket": "high",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T16:50:00",
+    "customer_id": "cust_0066"
+  },
+  {
+    "transaction_id": "txn_00432",
+    "amount_inr": 43284.06,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T17:41:00",
+    "customer_id": "cust_0094"
+  },
+  {
+    "transaction_id": "txn_00433",
+    "amount_inr": 1494.03,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "high",
+    "failed_at": "2026-08-04T04:48:00",
+    "customer_id": "cust_0170"
+  },
+  {
+    "transaction_id": "txn_00434",
+    "amount_inr": 492.07,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T16:44:00",
+    "customer_id": "cust_0363"
+  },
+  {
+    "transaction_id": "txn_00435",
+    "amount_inr": 14435.79,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-02T13:01:00",
+    "customer_id": "cust_0180"
+  },
+  {
+    "transaction_id": "txn_00436",
+    "amount_inr": 50.58,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-21T03:04:00",
+    "customer_id": "cust_0212"
+  },
+  {
+    "transaction_id": "txn_00437",
+    "amount_inr": 26577.02,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T19:30:00",
+    "customer_id": "cust_0389"
+  },
+  {
+    "transaction_id": "txn_00438",
+    "amount_inr": 4305.93,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-06T22:36:00",
+    "customer_id": "cust_0054"
+  },
+  {
+    "transaction_id": "txn_00439",
+    "amount_inr": 218.96,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T16:33:00",
+    "customer_id": "cust_0305"
+  },
+  {
+    "transaction_id": "txn_00440",
+    "amount_inr": 34413.58,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-21T05:55:00",
+    "customer_id": "cust_0223"
+  },
+  {
+    "transaction_id": "txn_00441",
+    "amount_inr": 36373.85,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T14:39:00",
+    "customer_id": "cust_0277"
+  },
+  {
+    "transaction_id": "txn_00442",
+    "amount_inr": 723.36,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T11:52:00",
+    "customer_id": "cust_0028"
+  },
+  {
+    "transaction_id": "txn_00443",
+    "amount_inr": 182.55,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T04:58:00",
+    "customer_id": "cust_0014"
+  },
+  {
+    "transaction_id": "txn_00444",
+    "amount_inr": 2631.07,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T17:11:00",
+    "customer_id": "cust_0251"
+  },
+  {
+    "transaction_id": "txn_00445",
+    "amount_inr": 2243.87,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T09:44:00",
+    "customer_id": "cust_0096"
+  },
+  {
+    "transaction_id": "txn_00446",
+    "amount_inr": 259.28,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T10:32:00",
+    "customer_id": "cust_0386"
+  },
+  {
+    "transaction_id": "txn_00447",
+    "amount_inr": 23629.4,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-06T04:15:00",
+    "customer_id": "cust_0284"
+  },
+  {
+    "transaction_id": "txn_00448",
+    "amount_inr": 4845.32,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T00:46:00",
+    "customer_id": "cust_0121"
+  },
+  {
+    "transaction_id": "txn_00449",
+    "amount_inr": 27594.57,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T05:09:00",
+    "customer_id": "cust_0293"
+  },
+  {
+    "transaction_id": "txn_00450",
+    "amount_inr": 104.13,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-05T19:43:00",
+    "customer_id": "cust_0099"
+  },
+  {
+    "transaction_id": "txn_00451",
+    "amount_inr": 49877.12,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T08:45:00",
+    "customer_id": "cust_0305"
+  },
+  {
+    "transaction_id": "txn_00452",
+    "amount_inr": 801.55,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-13T13:29:00",
+    "customer_id": "cust_0167"
+  },
+  {
+    "transaction_id": "txn_00453",
+    "amount_inr": 36518.55,
+    "amount_bucket": "high",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T21:23:00",
+    "customer_id": "cust_0215"
+  },
+  {
+    "transaction_id": "txn_00454",
+    "amount_inr": 304.97,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T09:41:00",
+    "customer_id": "cust_0289"
+  },
+  {
+    "transaction_id": "txn_00455",
+    "amount_inr": 4460.61,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-09T17:11:00",
+    "customer_id": "cust_0336"
+  },
+  {
+    "transaction_id": "txn_00456",
+    "amount_inr": 11473.37,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T11:48:00",
+    "customer_id": "cust_0356"
+  },
+  {
+    "transaction_id": "txn_00457",
+    "amount_inr": 3607.31,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-21T22:53:00",
+    "customer_id": "cust_0138"
+  },
+  {
+    "transaction_id": "txn_00458",
+    "amount_inr": 1863.75,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T12:42:00",
+    "customer_id": "cust_0357"
+  },
+  {
+    "transaction_id": "txn_00459",
+    "amount_inr": 1852.16,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "high",
+    "failed_at": "2026-08-07T03:08:00",
+    "customer_id": "cust_0374"
+  },
+  {
+    "transaction_id": "txn_00460",
+    "amount_inr": 42078.62,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T00:34:00",
+    "customer_id": "cust_0389"
+  },
+  {
+    "transaction_id": "txn_00461",
+    "amount_inr": 7952.76,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T12:46:00",
+    "customer_id": "cust_0207"
+  },
+  {
+    "transaction_id": "txn_00462",
+    "amount_inr": 445.7,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-20T01:06:00",
+    "customer_id": "cust_0030"
+  },
+  {
+    "transaction_id": "txn_00463",
+    "amount_inr": 3670.85,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T11:51:00",
+    "customer_id": "cust_0204"
+  },
+  {
+    "transaction_id": "txn_00464",
+    "amount_inr": 63.75,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T19:23:00",
+    "customer_id": "cust_0243"
+  },
+  {
+    "transaction_id": "txn_00465",
+    "amount_inr": 38703.25,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T01:21:00",
+    "customer_id": "cust_0146"
+  },
+  {
+    "transaction_id": "txn_00466",
+    "amount_inr": 434.22,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T17:33:00",
+    "customer_id": "cust_0116"
+  },
+  {
+    "transaction_id": "txn_00467",
+    "amount_inr": 40113.66,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T04:51:00",
+    "customer_id": "cust_0243"
+  },
+  {
+    "transaction_id": "txn_00468",
+    "amount_inr": 538.09,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T05:15:00",
+    "customer_id": "cust_0364"
+  },
+  {
+    "transaction_id": "txn_00469",
+    "amount_inr": 2069.19,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T21:00:00",
+    "customer_id": "cust_0347"
+  },
+  {
+    "transaction_id": "txn_00470",
+    "amount_inr": 533.06,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T18:37:00",
+    "customer_id": "cust_0332"
+  },
+  {
+    "transaction_id": "txn_00471",
+    "amount_inr": 2667.82,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T13:51:00",
+    "customer_id": "cust_0167"
+  },
+  {
+    "transaction_id": "txn_00472",
+    "amount_inr": 369.99,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T18:30:00",
+    "customer_id": "cust_0392"
+  },
+  {
+    "transaction_id": "txn_00473",
+    "amount_inr": 4145.13,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T11:47:00",
+    "customer_id": "cust_0072"
+  },
+  {
+    "transaction_id": "txn_00474",
+    "amount_inr": 1667.42,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T18:21:00",
+    "customer_id": "cust_0019"
+  },
+  {
+    "transaction_id": "txn_00475",
+    "amount_inr": 37101.62,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "high",
+    "failed_at": "2026-08-13T03:58:00",
+    "customer_id": "cust_0327"
+  },
+  {
+    "transaction_id": "txn_00476",
+    "amount_inr": 43043.87,
+    "amount_bucket": "high",
+    "failure_reason": "card_expired",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-20T22:40:00",
+    "customer_id": "cust_0286"
+  },
+  {
+    "transaction_id": "txn_00477",
+    "amount_inr": 107.57,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T11:12:00",
+    "customer_id": "cust_0172"
+  },
+  {
+    "transaction_id": "txn_00478",
+    "amount_inr": 4421.45,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T10:59:00",
+    "customer_id": "cust_0134"
+  },
+  {
+    "transaction_id": "txn_00479",
+    "amount_inr": 33547.85,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T02:57:00",
+    "customer_id": "cust_0037"
+  },
+  {
+    "transaction_id": "txn_00480",
+    "amount_inr": 3563.14,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-02T05:31:00",
+    "customer_id": "cust_0078"
+  },
+  {
+    "transaction_id": "txn_00481",
+    "amount_inr": 3062.32,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T06:13:00",
+    "customer_id": "cust_0162"
+  },
+  {
+    "transaction_id": "txn_00482",
+    "amount_inr": 1996.83,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T10:31:00",
+    "customer_id": "cust_0030"
+  },
+  {
+    "transaction_id": "txn_00483",
+    "amount_inr": 1258.73,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-18T20:49:00",
+    "customer_id": "cust_0391"
+  },
+  {
+    "transaction_id": "txn_00484",
+    "amount_inr": 2432.34,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T17:20:00",
+    "customer_id": "cust_0003"
+  },
+  {
+    "transaction_id": "txn_00485",
+    "amount_inr": 19499.59,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-05T08:04:00",
+    "customer_id": "cust_0010"
+  },
+  {
+    "transaction_id": "txn_00486",
+    "amount_inr": 161.97,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T08:05:00",
+    "customer_id": "cust_0197"
+  },
+  {
+    "transaction_id": "txn_00487",
+    "amount_inr": 705.73,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T13:29:00",
+    "customer_id": "cust_0267"
+  },
+  {
+    "transaction_id": "txn_00488",
+    "amount_inr": 4979.63,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T04:11:00",
+    "customer_id": "cust_0385"
+  },
+  {
+    "transaction_id": "txn_00489",
+    "amount_inr": 15278.82,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "high",
+    "failed_at": "2026-08-03T23:39:00",
+    "customer_id": "cust_0109"
+  },
+  {
+    "transaction_id": "txn_00490",
+    "amount_inr": 126.04,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T12:54:00",
+    "customer_id": "cust_0328"
+  },
+  {
+    "transaction_id": "txn_00491",
+    "amount_inr": 34788.65,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T00:37:00",
+    "customer_id": "cust_0011"
+  },
+  {
+    "transaction_id": "txn_00492",
+    "amount_inr": 16373.22,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T11:37:00",
+    "customer_id": "cust_0106"
+  },
+  {
+    "transaction_id": "txn_00493",
+    "amount_inr": 3477.49,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T04:07:00",
+    "customer_id": "cust_0311"
+  },
+  {
+    "transaction_id": "txn_00494",
+    "amount_inr": 2802.13,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T14:15:00",
+    "customer_id": "cust_0055"
+  },
+  {
+    "transaction_id": "txn_00495",
+    "amount_inr": 4241.74,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T00:10:00",
+    "customer_id": "cust_0210"
+  },
+  {
+    "transaction_id": "txn_00496",
+    "amount_inr": 1434.62,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-06T08:04:00",
+    "customer_id": "cust_0002"
+  },
+  {
+    "transaction_id": "txn_00497",
+    "amount_inr": 99.69,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-18T17:43:00",
+    "customer_id": "cust_0262"
+  },
+  {
+    "transaction_id": "txn_00498",
+    "amount_inr": 3399.52,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-07T00:14:00",
+    "customer_id": "cust_0238"
+  },
+  {
+    "transaction_id": "txn_00499",
+    "amount_inr": 21209.66,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-08T02:46:00",
+    "customer_id": "cust_0219"
+  },
+  {
+    "transaction_id": "txn_00500",
+    "amount_inr": 43339.94,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T17:27:00",
+    "customer_id": "cust_0088"
+  },
+  {
+    "transaction_id": "txn_00501",
+    "amount_inr": 1707.39,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-19T13:04:00",
+    "customer_id": "cust_0176"
+  },
+  {
+    "transaction_id": "txn_00502",
+    "amount_inr": 1723.25,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T04:51:00",
+    "customer_id": "cust_0216"
+  },
+  {
+    "transaction_id": "txn_00503",
+    "amount_inr": 100.88,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-03T08:38:00",
+    "customer_id": "cust_0214"
+  },
+  {
+    "transaction_id": "txn_00504",
+    "amount_inr": 2471.73,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T21:52:00",
+    "customer_id": "cust_0015"
+  },
+  {
+    "transaction_id": "txn_00505",
+    "amount_inr": 4512.93,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-03T13:40:00",
+    "customer_id": "cust_0211"
+  },
+  {
+    "transaction_id": "txn_00506",
+    "amount_inr": 44074.95,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-18T11:10:00",
+    "customer_id": "cust_0381"
+  },
+  {
+    "transaction_id": "txn_00507",
+    "amount_inr": 20223.53,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T15:52:00",
+    "customer_id": "cust_0359"
+  },
+  {
+    "transaction_id": "txn_00508",
+    "amount_inr": 34866.98,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T18:11:00",
+    "customer_id": "cust_0077"
+  },
+  {
+    "transaction_id": "txn_00509",
+    "amount_inr": 494.51,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T12:06:00",
+    "customer_id": "cust_0241"
+  },
+  {
+    "transaction_id": "txn_00510",
+    "amount_inr": 2712.42,
+    "amount_bucket": "mid",
+    "failure_reason": "card_expired",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-02T03:29:00",
+    "customer_id": "cust_0260"
+  },
+  {
+    "transaction_id": "txn_00511",
+    "amount_inr": 25659.26,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T04:43:00",
+    "customer_id": "cust_0046"
+  },
+  {
+    "transaction_id": "txn_00512",
+    "amount_inr": 103.42,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T04:19:00",
+    "customer_id": "cust_0212"
+  },
+  {
+    "transaction_id": "txn_00513",
+    "amount_inr": 48342.71,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T22:21:00",
+    "customer_id": "cust_0261"
+  },
+  {
+    "transaction_id": "txn_00514",
+    "amount_inr": 255.29,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T05:06:00",
+    "customer_id": "cust_0233"
+  },
+  {
+    "transaction_id": "txn_00515",
+    "amount_inr": 3724.96,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-03T14:16:00",
+    "customer_id": "cust_0050"
+  },
+  {
+    "transaction_id": "txn_00516",
+    "amount_inr": 4234.48,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T11:06:00",
+    "customer_id": "cust_0268"
+  },
+  {
+    "transaction_id": "txn_00517",
+    "amount_inr": 41982.74,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T10:04:00",
+    "customer_id": "cust_0210"
+  },
+  {
+    "transaction_id": "txn_00518",
+    "amount_inr": 4685.97,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T18:18:00",
+    "customer_id": "cust_0098"
+  },
+  {
+    "transaction_id": "txn_00519",
+    "amount_inr": 42685.98,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-03T19:17:00",
+    "customer_id": "cust_0396"
+  },
+  {
+    "transaction_id": "txn_00520",
+    "amount_inr": 315.19,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T01:38:00",
+    "customer_id": "cust_0377"
+  },
+  {
+    "transaction_id": "txn_00521",
+    "amount_inr": 427.47,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "high",
+    "failed_at": "2026-08-16T17:49:00",
+    "customer_id": "cust_0297"
+  },
+  {
+    "transaction_id": "txn_00522",
+    "amount_inr": 3458.85,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-12T11:18:00",
+    "customer_id": "cust_0197"
+  },
+  {
+    "transaction_id": "txn_00523",
+    "amount_inr": 1617.07,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T16:39:00",
+    "customer_id": "cust_0232"
+  },
+  {
+    "transaction_id": "txn_00524",
+    "amount_inr": 28053.26,
+    "amount_bucket": "high",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T11:10:00",
+    "customer_id": "cust_0161"
+  },
+  {
+    "transaction_id": "txn_00525",
+    "amount_inr": 1404.0,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "high",
+    "failed_at": "2026-08-16T14:58:00",
+    "customer_id": "cust_0177"
+  },
+  {
+    "transaction_id": "txn_00526",
+    "amount_inr": 13001.57,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T19:11:00",
+    "customer_id": "cust_0327"
+  },
+  {
+    "transaction_id": "txn_00527",
+    "amount_inr": 30678.72,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T03:49:00",
+    "customer_id": "cust_0214"
+  },
+  {
+    "transaction_id": "txn_00528",
+    "amount_inr": 290.26,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-12T21:28:00",
+    "customer_id": "cust_0055"
+  },
+  {
+    "transaction_id": "txn_00529",
+    "amount_inr": 351.61,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T12:31:00",
+    "customer_id": "cust_0350"
+  },
+  {
+    "transaction_id": "txn_00530",
+    "amount_inr": 360.77,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-09T03:53:00",
+    "customer_id": "cust_0232"
+  },
+  {
+    "transaction_id": "txn_00531",
+    "amount_inr": 38408.57,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-09T20:23:00",
+    "customer_id": "cust_0122"
+  },
+  {
+    "transaction_id": "txn_00532",
+    "amount_inr": 3618.21,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-09T19:39:00",
+    "customer_id": "cust_0214"
+  },
+  {
+    "transaction_id": "txn_00533",
+    "amount_inr": 2984.56,
+    "amount_bucket": "mid",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "high",
+    "failed_at": "2026-08-05T14:54:00",
+    "customer_id": "cust_0318"
+  },
+  {
+    "transaction_id": "txn_00534",
+    "amount_inr": 33520.48,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-15T17:41:00",
+    "customer_id": "cust_0189"
+  },
+  {
+    "transaction_id": "txn_00535",
+    "amount_inr": 3992.66,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T05:06:00",
+    "customer_id": "cust_0091"
+  },
+  {
+    "transaction_id": "txn_00536",
+    "amount_inr": 483.11,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T18:01:00",
+    "customer_id": "cust_0143"
+  },
+  {
+    "transaction_id": "txn_00537",
+    "amount_inr": 19875.33,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T12:32:00",
+    "customer_id": "cust_0021"
+  },
+  {
+    "transaction_id": "txn_00538",
+    "amount_inr": 32702.39,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T20:28:00",
+    "customer_id": "cust_0252"
+  },
+  {
+    "transaction_id": "txn_00539",
+    "amount_inr": 82.8,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T20:19:00",
+    "customer_id": "cust_0035"
+  },
+  {
+    "transaction_id": "txn_00540",
+    "amount_inr": 294.39,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T02:16:00",
+    "customer_id": "cust_0170"
+  },
+  {
+    "transaction_id": "txn_00541",
+    "amount_inr": 26368.57,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T17:50:00",
+    "customer_id": "cust_0386"
+  },
+  {
+    "transaction_id": "txn_00542",
+    "amount_inr": 45702.34,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-21T21:40:00",
+    "customer_id": "cust_0319"
+  },
+  {
+    "transaction_id": "txn_00543",
+    "amount_inr": 448.55,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-09T18:44:00",
+    "customer_id": "cust_0132"
+  },
+  {
+    "transaction_id": "txn_00544",
+    "amount_inr": 21873.11,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T03:20:00",
+    "customer_id": "cust_0250"
+  },
+  {
+    "transaction_id": "txn_00545",
+    "amount_inr": 136.63,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-18T14:20:00",
+    "customer_id": "cust_0276"
+  },
+  {
+    "transaction_id": "txn_00546",
+    "amount_inr": 14592.88,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T15:40:00",
+    "customer_id": "cust_0054"
+  },
+  {
+    "transaction_id": "txn_00547",
+    "amount_inr": 445.39,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-17T23:54:00",
+    "customer_id": "cust_0352"
+  },
+  {
+    "transaction_id": "txn_00548",
+    "amount_inr": 893.84,
+    "amount_bucket": "mid",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-13T16:47:00",
+    "customer_id": "cust_0037"
+  },
+  {
+    "transaction_id": "txn_00549",
+    "amount_inr": 2246.15,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-08T04:47:00",
+    "customer_id": "cust_0009"
+  },
+  {
+    "transaction_id": "txn_00550",
+    "amount_inr": 7845.69,
+    "amount_bucket": "high",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T07:49:00",
+    "customer_id": "cust_0024"
+  },
+  {
+    "transaction_id": "txn_00551",
+    "amount_inr": 977.61,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T19:15:00",
+    "customer_id": "cust_0045"
+  },
+  {
+    "transaction_id": "txn_00552",
+    "amount_inr": 221.64,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "high",
+    "failed_at": "2026-08-13T03:20:00",
+    "customer_id": "cust_0113"
+  },
+  {
+    "transaction_id": "txn_00553",
+    "amount_inr": 408.87,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T18:46:00",
+    "customer_id": "cust_0347"
+  },
+  {
+    "transaction_id": "txn_00554",
+    "amount_inr": 440.21,
+    "amount_bucket": "low",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "high",
+    "failed_at": "2026-08-13T14:17:00",
+    "customer_id": "cust_0285"
+  },
+  {
+    "transaction_id": "txn_00555",
+    "amount_inr": 307.72,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-07T22:24:00",
+    "customer_id": "cust_0108"
+  },
+  {
+    "transaction_id": "txn_00556",
+    "amount_inr": 34066.92,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-04T05:47:00",
+    "customer_id": "cust_0083"
+  },
+  {
+    "transaction_id": "txn_00557",
+    "amount_inr": 35194.01,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-20T09:26:00",
+    "customer_id": "cust_0028"
+  },
+  {
+    "transaction_id": "txn_00558",
+    "amount_inr": 2575.69,
+    "amount_bucket": "mid",
+    "failure_reason": "card_expired",
+    "customer_risk": "high",
+    "failed_at": "2026-08-16T06:49:00",
+    "customer_id": "cust_0035"
+  },
+  {
+    "transaction_id": "txn_00559",
+    "amount_inr": 21071.23,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T21:58:00",
+    "customer_id": "cust_0121"
+  },
+  {
+    "transaction_id": "txn_00560",
+    "amount_inr": 25279.07,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T00:07:00",
+    "customer_id": "cust_0157"
+  },
+  {
+    "transaction_id": "txn_00561",
+    "amount_inr": 305.09,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T02:38:00",
+    "customer_id": "cust_0161"
+  },
+  {
+    "transaction_id": "txn_00562",
+    "amount_inr": 382.92,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T11:08:00",
+    "customer_id": "cust_0376"
+  },
+  {
+    "transaction_id": "txn_00563",
+    "amount_inr": 250.41,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T23:59:00",
+    "customer_id": "cust_0331"
+  },
+  {
+    "transaction_id": "txn_00564",
+    "amount_inr": 1130.01,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-17T16:36:00",
+    "customer_id": "cust_0321"
+  },
+  {
+    "transaction_id": "txn_00565",
+    "amount_inr": 6403.74,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T04:09:00",
+    "customer_id": "cust_0208"
+  },
+  {
+    "transaction_id": "txn_00566",
+    "amount_inr": 45229.37,
+    "amount_bucket": "high",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T17:49:00",
+    "customer_id": "cust_0335"
+  },
+  {
+    "transaction_id": "txn_00567",
+    "amount_inr": 3974.65,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T01:07:00",
+    "customer_id": "cust_0238"
+  },
+  {
+    "transaction_id": "txn_00568",
+    "amount_inr": 15749.64,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T13:38:00",
+    "customer_id": "cust_0085"
+  },
+  {
+    "transaction_id": "txn_00569",
+    "amount_inr": 121.65,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-17T17:54:00",
+    "customer_id": "cust_0375"
+  },
+  {
+    "transaction_id": "txn_00570",
+    "amount_inr": 2694.39,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-06T07:48:00",
+    "customer_id": "cust_0022"
+  },
+  {
+    "transaction_id": "txn_00571",
+    "amount_inr": 406.16,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T21:47:00",
+    "customer_id": "cust_0333"
+  },
+  {
+    "transaction_id": "txn_00572",
+    "amount_inr": 4233.41,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-14T04:00:00",
+    "customer_id": "cust_0279"
+  },
+  {
+    "transaction_id": "txn_00573",
+    "amount_inr": 220.33,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T18:10:00",
+    "customer_id": "cust_0129"
+  },
+  {
+    "transaction_id": "txn_00574",
+    "amount_inr": 2088.04,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-19T00:53:00",
+    "customer_id": "cust_0247"
+  },
+  {
+    "transaction_id": "txn_00575",
+    "amount_inr": 15349.58,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T15:25:00",
+    "customer_id": "cust_0144"
+  },
+  {
+    "transaction_id": "txn_00576",
+    "amount_inr": 213.0,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T10:26:00",
+    "customer_id": "cust_0170"
+  },
+  {
+    "transaction_id": "txn_00577",
+    "amount_inr": 1448.17,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T12:15:00",
+    "customer_id": "cust_0125"
+  },
+  {
+    "transaction_id": "txn_00578",
+    "amount_inr": 6763.59,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-04T08:12:00",
+    "customer_id": "cust_0029"
+  },
+  {
+    "transaction_id": "txn_00579",
+    "amount_inr": 48615.97,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "high",
+    "failed_at": "2026-08-01T10:10:00",
+    "customer_id": "cust_0369"
+  },
+  {
+    "transaction_id": "txn_00580",
+    "amount_inr": 1474.67,
+    "amount_bucket": "mid",
+    "failure_reason": "otp_failed",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-20T17:39:00",
+    "customer_id": "cust_0247"
+  },
+  {
+    "transaction_id": "txn_00581",
+    "amount_inr": 320.38,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-15T04:21:00",
+    "customer_id": "cust_0338"
+  },
+  {
+    "transaction_id": "txn_00582",
+    "amount_inr": 358.52,
+    "amount_bucket": "low",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-06T05:30:00",
+    "customer_id": "cust_0194"
+  },
+  {
+    "transaction_id": "txn_00583",
+    "amount_inr": 4368.16,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-19T19:23:00",
+    "customer_id": "cust_0077"
+  },
+  {
+    "transaction_id": "txn_00584",
+    "amount_inr": 44498.87,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-12T10:53:00",
+    "customer_id": "cust_0386"
+  },
+  {
+    "transaction_id": "txn_00585",
+    "amount_inr": 42238.48,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T18:34:00",
+    "customer_id": "cust_0221"
+  },
+  {
+    "transaction_id": "txn_00586",
+    "amount_inr": 2884.17,
+    "amount_bucket": "mid",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-18T23:12:00",
+    "customer_id": "cust_0394"
+  },
+  {
+    "transaction_id": "txn_00587",
+    "amount_inr": 383.63,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T16:22:00",
+    "customer_id": "cust_0069"
+  },
+  {
+    "transaction_id": "txn_00588",
+    "amount_inr": 31923.16,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-10T07:10:00",
+    "customer_id": "cust_0132"
+  },
+  {
+    "transaction_id": "txn_00589",
+    "amount_inr": 405.24,
+    "amount_bucket": "low",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-09T12:48:00",
+    "customer_id": "cust_0336"
+  },
+  {
+    "transaction_id": "txn_00590",
+    "amount_inr": 24173.22,
+    "amount_bucket": "high",
+    "failure_reason": "insufficient_funds",
+    "customer_risk": "medium",
+    "failed_at": "2026-08-06T18:31:00",
+    "customer_id": "cust_0134"
+  },
+  {
+    "transaction_id": "txn_00591",
+    "amount_inr": 214.54,
+    "amount_bucket": "low",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T09:40:00",
+    "customer_id": "cust_0283"
+  },
+  {
+    "transaction_id": "txn_00592",
+    "amount_inr": 2997.1,
+    "amount_bucket": "mid",
+    "failure_reason": "card_expired",
+    "customer_risk": "low",
+    "failed_at": "2026-08-14T03:28:00",
+    "customer_id": "cust_0177"
+  },
+  {
+    "transaction_id": "txn_00593",
+    "amount_inr": 112.13,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T03:54:00",
+    "customer_id": "cust_0359"
+  },
+  {
+    "transaction_id": "txn_00594",
+    "amount_inr": 41038.42,
+    "amount_bucket": "high",
+    "failure_reason": "cart_abandoned",
+    "customer_risk": "low",
+    "failed_at": "2026-08-16T20:41:00",
+    "customer_id": "cust_0351"
+  },
+  {
+    "transaction_id": "txn_00595",
+    "amount_inr": 484.06,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-11T17:35:00",
+    "customer_id": "cust_0308"
+  },
+  {
+    "transaction_id": "txn_00596",
+    "amount_inr": 860.18,
+    "amount_bucket": "mid",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-10T02:48:00",
+    "customer_id": "cust_0315"
+  },
+  {
+    "transaction_id": "txn_00597",
+    "amount_inr": 483.59,
+    "amount_bucket": "low",
+    "failure_reason": "otp_failed",
+    "customer_risk": "low",
+    "failed_at": "2026-08-15T13:41:00",
+    "customer_id": "cust_0254"
+  },
+  {
+    "transaction_id": "txn_00598",
+    "amount_inr": 345.6,
+    "amount_bucket": "low",
+    "failure_reason": "bank_timeout",
+    "customer_risk": "low",
+    "failed_at": "2026-08-18T20:08:00",
+    "customer_id": "cust_0307"
+  },
+  {
+    "transaction_id": "txn_00599",
+    "amount_inr": 21188.3,
+    "amount_bucket": "high",
+    "failure_reason": "risk_decline",
+    "customer_risk": "low",
+    "failed_at": "2026-08-01T00:09:00",
+    "customer_id": "cust_0081"
+  }
+]
