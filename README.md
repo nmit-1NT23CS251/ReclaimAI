@@ -107,6 +107,27 @@ evaluated against the identical environment and guardrails), but the
 absolute ₹ figures are illustrative of the *mechanism*, not a production
 revenue forecast.
 
+**The obvious objection: "you wrote both the agent and the environment it's
+graded against — how do you know the comparison means anything?"** You
+don't, not about real-world revenue. What the 600-transaction comparison
+shows is narrower: *given one fixed set of assumptions*, a policy that
+reasons about context (failure reason, amount, risk, attempt number) beats
+policies that ignore context entirely. That's a claim about the mechanism,
+not a forecast. To check it isn't just an artifact of one convenient
+calibration, [`agent/robustness_check.py`](agent/robustness_check.py)
+reruns the identical agent-vs-baseline comparison across 8 trials, each
+time jittering every recovery-probability and cost assumption by up to
+±25%. Result: **the agent beat the best baseline in all 8 trials**, lift
+ranging from +9.5% to +37.4% (avg +21.9%) — full numbers in
+[`agent/results/robustness.json`](agent/results/robustness.json). That's
+evidence the *qualitative* finding is robust to the specific numbers being
+wrong, which is different from evidence about real revenue. Getting real
+evidence would mean either (a) estimating `agent/environment.py`'s
+probabilities from real historical outcome data instead of assumption, or
+(b) a live pilot routing a slice of real failed transactions through the
+agent against a control group — the architecture doesn't need to change
+for either, only the numbers inside `environment.py`.
+
 ## Architecture
 
 ```

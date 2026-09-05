@@ -1,0 +1,58 @@
+[
+  {
+    "trial": 0,
+    "agent_net_inr": 3880670.0,
+    "best_baseline_net_inr": 3044684.46,
+    "lift_pct": 27.5,
+    "agent_wins": true
+  },
+  {
+    "trial": 1,
+    "agent_net_inr": 3678468.08,
+    "best_baseline_net_inr": 3357836.62,
+    "lift_pct": 9.5,
+    "agent_wins": true
+  },
+  {
+    "trial": 2,
+    "agent_net_inr": 3945208.97,
+    "best_baseline_net_inr": 2871567.71,
+    "lift_pct": 37.4,
+    "agent_wins": true
+  },
+  {
+    "trial": 3,
+    "agent_net_inr": 3317572.19,
+    "best_baseline_net_inr": 2930129.45,
+    "lift_pct": 13.2,
+    "agent_wins": true
+  },
+  {
+    "trial": 4,
+    "agent_net_inr": 4038765.74,
+    "best_baseline_net_inr": 3176548.11,
+    "lift_pct": 27.1,
+    "agent_wins": true
+  },
+  {
+    "trial": 5,
+    "agent_net_inr": 3605533.57,
+    "best_baseline_net_inr": 2970748.44,
+    "lift_pct": 21.4,
+    "agent_wins": true
+  },
+  {
+    "trial": 6,
+    "agent_net_inr": 4011744.56,
+    "best_baseline_net_inr": 3226401.57,
+    "lift_pct": 24.3,
+    "agent_wins": true
+  },
+  {
+    "trial": 7,
+    "agent_net_inr": 3604435.77,
+    "best_baseline_net_inr": 3133995.93,
+    "lift_pct": 15.0,
+    "agent_wins": true
+  }
+]
