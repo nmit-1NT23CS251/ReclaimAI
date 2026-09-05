@@ -52,6 +52,26 @@
   .pill { display:inline-block; font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); margin-right:6px; }
   footer { text-align: center; color: var(--muted); font-size: 12px; padding: 24px; }
   code { background: var(--panel2); padding: 1px 6px; border-radius: 4px; }
+  .btn-row { display: flex; gap: 8px; }
+  .btn-row button.secondary { background: transparent; border: 1px solid var(--accent2); color: var(--accent2); }
+  .considered { margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--border); }
+  .considered .crow { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; font-size: 12px; }
+  .considered .crow .cname { width: 130px; flex-shrink: 0; color: var(--muted); }
+  .considered .cbar-track { flex: 1; background: var(--bg); border-radius: 5px; height: 14px; overflow: hidden; border: 1px solid var(--border); }
+  .considered .cbar-fill { height: 100%; background: linear-gradient(90deg, var(--accent2), var(--accent)); }
+  .considered .cbar-fill.chosen { background: linear-gradient(90deg, var(--good), #2fe0c8); }
+  .considered .cval { width: 90px; text-align: right; font-variant-numeric: tabular-nums; }
+  .considered .cval.unseen { color: var(--muted); font-style: italic; }
+  .timeline { margin-top: 14px; display: grid; gap: 10px; }
+  .tstep { background: var(--panel2); border: 1px solid var(--border); border-radius: 10px; padding: 12px; font-size: 13px; }
+  .tstep .thead { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+  .outcome-badge { font-size: 11px; padding: 2px 8px; border-radius: 999px; font-weight: 700; }
+  .outcome-recovered { background: rgba(79,209,138,0.18); color: var(--good); }
+  .outcome-no_response { background: rgba(139,160,183,0.18); color: var(--muted); }
+  .outcome-written_off { background: rgba(245,99,107,0.18); color: var(--bad); }
+  .journey-summary { font-weight: 700; margin-top: 10px; padding: 10px; border-radius: 8px; text-align: center; }
+  .journey-summary.win { background: rgba(79,209,138,0.15); color: var(--good); }
+  .journey-summary.loss { background: rgba(245,99,107,0.15); color: var(--bad); }
 </style>
 </head>
 <body>
@@ -106,9 +126,13 @@
           <label>Hour of day (0–23)</label>
           <input type="number" name="hour_of_day" value="14" min="0" max="23" />
         </div>
-        <button type="submit">Ask the agent</button>
+        <div class="btn-row">
+          <button type="submit">Ask the agent</button>
+          <button type="button" class="secondary" id="run-journey-btn">Run full recovery journey</button>
+        </div>
       </form>
       <div class="result" id="decide-result"></div>
+      <div class="result" id="journey-result"></div>
     </div>
   </section>
 
@@ -206,6 +230,17 @@ document.getElementById("decide-form").addEventListener("submit", async (e) => {
       method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(payload),
     });
     const r = await res.json();
+    const maxVal = Math.max(1, ...r.considered_actions.map(c => c.estimated_net_value_inr || 0));
+    const consideredHtml = r.considered_actions.map(c => {
+      const pct = c.estimated_net_value_inr == null ? 0 : Math.max(2, (Math.max(0, c.estimated_net_value_inr) / maxVal) * 100);
+      const valLabel = c.estimated_net_value_inr == null ? "no data" : fmtINR(c.estimated_net_value_inr);
+      return `<div class="crow">
+        <div class="cname">${c.action}${c.chosen ? " ✓" : ""}</div>
+        <div class="cbar-track"><div class="cbar-fill ${c.chosen ? "chosen" : ""}" style="width:${pct}%"></div></div>
+        <div class="cval ${c.estimated_net_value_inr == null ? "unseen" : ""}">${valLabel}</div>
+      </div>`;
+    }).join("");
+
     box.innerHTML = `<span class="action-badge badge-${r.action}">${r.action}</span>
       <div>${r.explanation}</div>
       ${r.customer_message ? `<div class="muted" style="margin-top:8px">"${r.customer_message}"</div>` : ""}
@@ -213,9 +248,50 @@ document.getElementById("decide-form").addEventListener("submit", async (e) => {
         <span class="pill">valid: ${r.valid_actions.join(", ")}</span>
         <span class="pill">quiet hours: ${r.guardrails_applied.quiet_hours}</span>
         <span class="pill">next cooldown: ${r.guardrails_applied.cooldown_hours_if_taken}h</span>
+        ${r.state_seen_in_training ? "" : '<span class="pill">⚠ rare scenario — falling back to safe default</span>'}
+      </div>
+      <div class="considered">
+        <div class="muted" style="margin-bottom:6px;font-size:12px">What the agent weighed (estimated ₹ value of each option):</div>
+        ${consideredHtml}
       </div>`;
     addAuditRow({ action: r.action, failure_reason: payload.failure_reason, amount: payload.amount_inr,
                   customer_risk: payload.customer_risk, attempt_number: payload.attempt_number, explanation: r.explanation });
+  } catch (err) {
+    box.innerHTML = "Request failed — is the backend running?";
+  }
+});
+
+document.getElementById("run-journey-btn").addEventListener("click", async () => {
+  const fd = new FormData(document.getElementById("decide-form"));
+  const payload = {
+    failure_reason: fd.get("failure_reason"),
+    amount_inr: Number(fd.get("amount_inr")),
+    customer_risk: fd.get("customer_risk"),
+    start_hour_of_day: Number(fd.get("hour_of_day")),
+  };
+  const box = document.getElementById("journey-result");
+  box.style.display = "block";
+  box.innerHTML = "Running the full recovery journey…";
+  try {
+    const res = await fetch(API_BASE + "/decide-sequence", {
+      method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(payload),
+    });
+    const r = await res.json();
+    const stepsHtml = r.steps.map(s => `
+      <div class="tstep">
+        <div class="thead">
+          <span class="action-badge badge-${s.action}">${s.action}</span>
+          <span class="outcome-badge outcome-${s.outcome}">${s.outcome.replace("_"," ")}</span>
+          <span class="muted" style="margin-left:auto;font-size:12px">attempt ${s.attempt + 1} · hour ${s.hour_of_day}:00</span>
+        </div>
+        <div>${s.explanation}</div>
+        ${s.customer_message ? `<div class="muted" style="margin-top:6px">"${s.customer_message}"</div>` : ""}
+      </div>`).join("");
+    const summary = r.recovered
+      ? `<div class="journey-summary win">✅ Recovered after ${r.total_attempts} attempt(s)</div>`
+      : `<div class="journey-summary loss">✗ Written off after ${r.total_attempts} attempt(s) — guardrails stopped further contact</div>`;
+    box.innerHTML = `<div class="muted" style="margin-bottom:8px;font-size:12px">Full journey for this transaction (re-run for a different random outcome):</div>
+      <div class="timeline">${stepsHtml}</div>${summary}`;
   } catch (err) {
     box.innerHTML = "Request failed — is the backend running?";
   }

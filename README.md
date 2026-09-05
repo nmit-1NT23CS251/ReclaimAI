@@ -60,6 +60,26 @@ if no API key is set, so the system runs and demos fully offline) turns each
 decision into a human-readable audit explanation and, where relevant, a
 draft customer message.
 
+### What makes the decision inspectable, not just claimed
+
+Two things the dashboard exposes that most "agent picks an action" demos
+don't bother with:
+
+- **"What the agent weighed"** — `/decide` doesn't just return the chosen
+  action, it returns the learned ₹ value estimate for *every* valid
+  action at that moment, with the winner highlighted. You can see, in
+  actual rupees, why `retry_with_reminder` beat `retry_now` by a specific
+  margin — not just a sentence asserting it was the right call. If the
+  exact scenario was never seen during training, it says so honestly
+  (`state_seen_in_training: false`) instead of faking confidence.
+- **Full recovery journeys, not single decisions** — `/decide-sequence`
+  runs a transaction through its *entire* multi-attempt lifecycle (every
+  retry, every cooldown, escalation if it happens, eventual success or a
+  guardrail-forced write-off) and the dashboard renders it as a timeline.
+  This is what actually demonstrates the guardrails working — cooldowns
+  being respected, `escalate_human` only appearing when the rules allow
+  it, a hard stop after 4 attempts — instead of just asserting they hold.
+
 ## Results (measured, not claimed)
 
 Evaluated on **600 synthetic failed-payment/abandonment events** against
@@ -135,7 +155,8 @@ fallback — everything else behaves identically either way.
 
 ## API
 
-- `POST /decide` — `{failure_reason, amount_inr, customer_risk, attempt_number, hours_since_failure, hour_of_day}` → next action, explanation, customer message, guardrails applied. Logged to the audit trail.
+- `POST /decide` — `{failure_reason, amount_inr, customer_risk, attempt_number, hours_since_failure, hour_of_day}` → next action, explanation, customer message, guardrails applied, and `considered_actions` (learned ₹ value estimate for every valid action, not just the winner). Logged to the audit trail.
+- `POST /decide-sequence` — `{failure_reason, amount_inr, customer_risk, start_hour_of_day}` → the full multi-attempt recovery journey for that transaction (every retry, cooldown, and either eventual success or a guardrail-forced write-off).
 - `GET /audit-log` — recent live decisions.
 - `GET /metrics` — agent-vs-baseline aggregate results from the batch simulation.
 - `GET /simulation-log/{policy}` — full per-transaction trace for `reclaimai_agent`, `always_retry_now`, `retry_then_stop`, or `random_valid`.

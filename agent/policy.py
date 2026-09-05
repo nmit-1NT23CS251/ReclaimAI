@@ -48,6 +48,16 @@ class QLearningPolicy:
         qvals = self.q[key]
         return max(valid, key=lambda a: qvals.get(a, float("-inf")) if a in qvals else float("-inf"))
 
+    def q_values(self, state, valid):
+        """Returns {action: estimated_value or None} for every valid action —
+        None means this exact state was never seen during training, so there's
+        no learned estimate for it (used to be honest in the UI rather than
+        pretend confidence that isn't there)."""
+        key = state_key(state)
+        if key not in self.q:
+            return {a: None for a in valid}
+        return {a: self.q[key].get(a) for a in valid}
+
     def update(self, state, action, reward, next_state, next_valid, done):
         key = state_key(state)
         self._ensure(key, [action])
