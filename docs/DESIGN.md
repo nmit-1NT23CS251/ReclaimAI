@@ -49,6 +49,11 @@ Baselines the agent is measured against:
 1. `always_retry_now` — naive, no discounts/escalation, no stopping discipline
 2. `retry_then_stop` — one retry, then give up
 3. `random_valid_action` — random pick within guardrails (sanity floor)
+4. `smart_rules` — hand-written if/else policy encoding realistic PM-level
+   judgment (added later, once the naive baselines turned out to be too
+   easy to beat to mean much); this is the baseline that actually stress-
+   tests whether the learned policy is adding value — see README's
+   "Results" section for the honest near-tie finding against it.
 
 ## Explanation layer
 Every agent decision is fed to an LLM (Groq/Llama, same provider used in
