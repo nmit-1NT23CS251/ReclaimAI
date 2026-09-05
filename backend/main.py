@@ -207,6 +207,24 @@ def metrics():
     return json.loads(path.read_text())
 
 
+@app.get("/robustness")
+def robustness():
+    path = ROOT / "agent" / "results" / "robustness.json"
+    if not path.exists():
+        raise HTTPException(404, "run `python -m agent.robustness_check` first")
+    trials = json.loads(path.read_text())
+    wins = sum(1 for t in trials if t["agent_wins"])
+    lifts = [t["lift_pct"] for t in trials]
+    return {
+        "trials": trials,
+        "trial_count": len(trials),
+        "wins": wins,
+        "avg_lift_pct": round(sum(lifts) / len(lifts), 1) if lifts else 0,
+        "min_lift_pct": round(min(lifts), 1) if lifts else 0,
+        "max_lift_pct": round(max(lifts), 1) if lifts else 0,
+    }
+
+
 @app.get("/simulation-log/{policy_name}")
 def simulation_log(policy_name: str, limit: int = 200):
     path = ROOT / "agent" / "results" / "audit_log.json"

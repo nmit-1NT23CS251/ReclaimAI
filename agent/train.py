@@ -3,7 +3,7 @@ import random
 
 from agent.policy import QLearningPolicy, run_episode, EPSILON_START, EPSILON_END, EPSILON_DECAY_EPISODES
 
-EPISODES = 20000
+EPISODES = 500000
 
 
 def epsilon_at(ep):

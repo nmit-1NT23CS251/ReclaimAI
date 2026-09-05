@@ -14,7 +14,7 @@ ALPHA = 0.15   # learning rate
 GAMMA = 0.90   # discount factor
 EPSILON_START = 0.9
 EPSILON_END = 0.05
-EPSILON_DECAY_EPISODES = 8000
+EPSILON_DECAY_EPISODES = 200000
 
 
 class QLearningPolicy:

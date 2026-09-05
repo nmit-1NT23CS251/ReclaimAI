@@ -72,6 +72,12 @@
   .journey-summary { font-weight: 700; margin-top: 10px; padding: 10px; border-radius: 8px; text-align: center; }
   .journey-summary.win { background: rgba(79,209,138,0.15); color: var(--good); }
   .journey-summary.loss { background: rgba(245,99,107,0.15); color: var(--bad); }
+  .robust-summary { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 14px; }
+  @media (max-width: 700px) { .robust-summary { grid-template-columns: repeat(2, 1fr); } }
+  .trial-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+  .trial-pill { font-size: 11px; padding: 4px 9px; border-radius: 999px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .trial-pill.win { background: rgba(79,209,138,0.18); color: var(--good); }
+  .trial-pill.loss { background: rgba(245,99,107,0.18); color: var(--bad); }
 </style>
 </head>
 <body>
@@ -90,6 +96,7 @@
     <div class="card">
       <h2>Net revenue recovered — agent vs. baselines</h2>
       <div id="bars"></div>
+      <div class="muted" style="margin-top:10px;font-size:12px">"Smart rule-based" is a hand-written if/else policy — no ML — meant to represent what a business would build without an agent. Beating naive baselines is a low bar; this one is the real test.</div>
     </div>
 
     <div class="card">
@@ -134,6 +141,11 @@
       <div class="result" id="decide-result"></div>
       <div class="result" id="journey-result"></div>
     </div>
+  </section>
+
+  <section class="card">
+    <h2>Robustness check — same comparison under randomized assumptions</h2>
+    <div id="robustness-body"><div class="muted">Loading…</div></div>
   </section>
 
   <section class="card">
@@ -189,7 +201,8 @@ function renderBars(data) {
   const entries = Object.entries(data).sort((a,b) => b[1].net_revenue_recovered_inr - a[1].net_revenue_recovered_inr);
   const max = Math.max(...entries.map(([,v]) => v.net_revenue_recovered_inr));
   const names = { reclaimai_agent: "ReclaimAI agent", always_retry_now: "Always retry now",
-                  retry_then_stop: "Retry once, then stop", random_valid: "Random valid action" };
+                  retry_then_stop: "Retry once, then stop", random_valid: "Random valid action",
+                  smart_rules: "Smart rule-based (no ML)" };
   document.getElementById("bars").innerHTML = entries.map(([k, v]) => {
     const pct = Math.max(2, (v.net_revenue_recovered_inr / max) * 100);
     return `<div class="bar-row">
@@ -198,6 +211,34 @@ function renderBars(data) {
       <div class="bar-val">${fmtINR(v.net_revenue_recovered_inr)}</div>
     </div>`;
   }).join("");
+}
+
+async function loadRobustness() {
+  const box = document.getElementById("robustness-body");
+  try {
+    const res = await fetch(API_BASE + "/robustness");
+    if (!res.ok) throw new Error("not found");
+    const data = await res.json();
+    const summary = [
+      { label: "Trials run", value: data.trial_count },
+      { label: "Agent won", value: `${data.wins} / ${data.trial_count}`, good: data.wins >= data.trial_count / 2 },
+      { label: "Avg lift vs best baseline", value: (data.avg_lift_pct >= 0 ? "+" : "") + data.avg_lift_pct + "%", good: data.avg_lift_pct >= 0 },
+      { label: "Lift range", value: `${data.min_lift_pct}% to +${data.max_lift_pct}%` },
+    ];
+    const pills = data.trials.map(t =>
+      `<span class="trial-pill ${t.agent_wins ? "win" : "loss"}" title="agent ₹${t.agent_net_inr.toLocaleString("en-IN")} vs baseline ₹${t.best_baseline_net_inr.toLocaleString("en-IN")}">
+        trial ${t.trial}: ${t.lift_pct >= 0 ? "+" : ""}${t.lift_pct}%
+      </span>`
+    ).join("");
+    box.innerHTML = `
+      <div class="muted" style="margin-bottom:12px;font-size:12px">Every recovery-probability and cost assumption in the environment was jittered by up to ±25%, ${data.trial_count} times, and the full agent-vs-baseline comparison was rerun each time — this checks whether the finding holds up when the (necessarily made-up) assumptions are wrong, not just for one convenient calibration.</div>
+      <div class="robust-summary">
+        ${summary.map(s => `<div class="kpi"><div class="label">${s.label}</div><div class="value ${s.good ? "good" : ""}">${s.value}</div></div>`).join("")}
+      </div>
+      <div class="trial-pills">${pills}</div>`;
+  } catch (e) {
+    box.innerHTML = '<div class="muted">Run `python -m agent.robustness_check` to generate this.</div>';
+  }
 }
 
 function addAuditRow(r) {
@@ -298,6 +339,7 @@ document.getElementById("run-journey-btn").addEventListener("click", async () =>
 });
 
 loadMetrics();
+loadRobustness();
 </script>
 </body>
 </html>

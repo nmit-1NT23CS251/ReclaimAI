@@ -1,14 +1,14 @@
 {
   "reclaimai_agent": {
     "transactions": 600,
-    "recovery_rate": 0.555,
-    "revenue_recovered_inr": 4045674.98,
-    "operating_cost_inr": 29012.2,
-    "net_revenue_recovered_inr": 4016662.78,
-    "escalations": 78,
-    "false_escalation_rate": 0.1923,
+    "recovery_rate": 0.5767,
+    "revenue_recovered_inr": 4100891.7,
+    "operating_cost_inr": 30607.05,
+    "net_revenue_recovered_inr": 4070284.65,
+    "escalations": 71,
+    "false_escalation_rate": 0.338,
     "guardrail_violations": 0,
-    "avg_attempts_per_transaction": 2.21
+    "avg_attempts_per_transaction": 2.44
   },
   "always_retry_now": {
     "transactions": 600,
@@ -42,5 +42,16 @@
     "false_escalation_rate": 0.3846,
     "guardrail_violations": 0,
     "avg_attempts_per_transaction": 1.82
+  },
+  "smart_rules": {
+    "transactions": 600,
+    "recovery_rate": 0.645,
+    "revenue_recovered_inr": 4062139.82,
+    "operating_cost_inr": 13904.0,
+    "net_revenue_recovered_inr": 4048235.82,
+    "escalations": 101,
+    "false_escalation_rate": 0.3069,
+    "guardrail_violations": 0,
+    "avg_attempts_per_transaction": 2.65
   }
 }
