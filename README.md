@@ -214,21 +214,6 @@ fallback — everything else behaves identically either way.
 - `GET /robustness` — the 8-trial sensitivity check: agent-vs-best-baseline lift under ±25% jittered assumptions, plus win count and lift range.
 - `GET /simulation-log/{policy}` — full per-transaction trace for `reclaimai_agent`, `always_retry_now`, `retry_then_stop`, `random_valid`, or `smart_rules`.
 
-## What's next
 
-- Swap the simulated environment's probabilities for real (anonymized)
-  outcome data once available, and re-train — this is also the honest way
-  to settle the agent-vs-`smart_rules` near-tie, since both are currently
-  scored against the same assumed probabilities.
-- Move from a tabular Q-table to a function-approximation policy (small
-  neural net) once the state space grows past what a table can cover
-  cleanly (e.g. adding merchant-category or payment-method features).
-- Wire `escalate_human` into an actual ops queue/webhook instead of just
-  logging the decision.
-- Feed `smart_rules`' logic in as a warm start / reward-shaping signal for
-  training, rather than only using it as a comparison baseline — a natural
-  way to combine "known-good heuristic" with "adapts on its own."
-
----
 Built solo by Taqia Bakhtiar for the Razorpay AI Buildathon (AI Revenue
 Recovery track).
